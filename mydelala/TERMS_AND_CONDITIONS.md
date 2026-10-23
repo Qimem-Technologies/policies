@@ -1,405 +1,380 @@
-# Terms and Conditions of Service
+# MyDelala Terms and Conditions of Service
 
-> **Last Updated:** October 17, 2026  
-> **Effective Date:** October 17, 2026  
-> **Version:** 2.0.0  
-> **Operated By:** QIMEM Technologies PLC ("QIMEM", "Company", "we", "us", or "our")  
-> **Platform:** MyDelala Real Estate Marketplace (Android App, iOS App, Web Portal, Telegram Mini App, and APIs)  
-> **Official Website:** [https://mydelala.qimemtech.com](https://mydelala.qimemtech.com)  
-> **Legal Contact:** [legal@qimemtech.com](mailto:legal@qimemtech.com)
+> **Last Updated:** October 20, 2026 · **Effective Date:** October 23, 2026 · **Version:** 2.1.0  
+> **Operated By:** Qimem Technologies PLC ("Qimem", "we", "us") · Bole Sub-City, Addis Ababa, Ethiopia  
+> **Applicable To:** MyDelala & MyDelala Lite on Android, iOS, Web ([mydelala.et](https://mydelala.et)), Telegram Bot, Telegram Mini App, Telegram Sign-In, and APIs  
+> **Support:** [support@mydelala.et](mailto:support@mydelala.et) · **Complaints:** [complaints@mydelala.et](mailto:complaints@mydelala.et) · **Legal:** [legal@mydelala.et](mailto:legal@mydelala.et)
+
+---
+
+## Summary of Key Terms
+
+> [!NOTE]
+> This summary highlights key points. It does not replace the full Terms below.
+
+* **Marketplace Only:** We connect property seekers with brokers (*delalas*), agencies, developers, and owners (providers). We are not a broker, landlord, or party to any real estate contract, lease, or transaction.
+* **Eligibility & Truthfulness:** Users must be 18+ and provide truthful details. Providers must hold required Ethiopian trade licenses and pass verification before receiving badges.
+* **Listing Accuracy:** Listings must be genuine, available, and priced in ETB. Fake, duplicate, or misleading listings are removed, and accounts may be suspended.
+* **Pricing & Payments:** Prices include VAT. Payments are processed through licensed Ethiopian providers (Telebirr, CBE Birr, Chapa). We do not store card numbers or banking PINs.
+* **In-App Wallet:** The wallet is a prepaid balance for MyDelala services only—not a bank or e-money account. It earns no interest, is non-transferable, and unused paid funds are refundable on account closure.
+* **Seeker Due Diligence:** Always inspect properties in person, verify title deeds or powers of attorney, obtain written receipts, and register leases with the woreda under rent law before paying anyone.
+* **Safety & Content Standards:** Zero tolerance for fraud, harassment, discrimination, or hate speech. We act on hate speech and disinformation reports within 24 hours under Proclamation No. 1185/2020.
+* **Governing Law & Disputes:** Ethiopian law applies. Unresolved disputes go to amicable settlement, then Addis Ababa courts or commercial arbitration.
 
 ---
 
 ## Table of Contents
 
-1. [Acceptance of Terms & Eligibility](#1-acceptance-of-terms--eligibility)
-2. [Definitions & Scope of Services](#2-definitions--scope-of-services)
-3. [Marketplace Role & Disclaimers](#3-marketplace-role--disclaimers)
-4. [Account Registration, Roles & Security](#4-account-registration-roles--security)
-5. [Identity Verification & KYC Compliance (Fayda Integration)](#5-identity-verification--kyc-compliance-fayda-integration)
-6. [Property Listings, Content & Representations](#6-property-listings-content--representations)
-7. [Scheduling, Property Inspections & Code of Conduct](#7-scheduling-property-inspections--code-of-conduct)
-8. [Fees, Subscriptions, Digital Wallet & Invoicing](#8-fees-subscriptions-digital-wallet--invoicing)
-9. [User-Generated Content, Reviews, Blocking & Abuse Moderation](#9-user-generated-content-reviews-blocking--abuse-moderation)
-10. [Geolocation Services, GPS Integrity & Anti-Spoofing Policy](#10-geolocation-services-gps-integrity--anti-spoofing-policy)
-11. [Intellectual Property & Platform Usage Rights](#11-intellectual-property--platform-usage-rights)
-12. [Prohibited Activities & Zero-Tolerance Violations](#12-prohibited-activities--zero-tolerance-violations)
-13. [Account Suspension, Deletion & Termination](#13-account-suspension-deletion--termination)
-14. [Disclaimers of Warranties ("As Is")](#14-disclaimers-of-warranties-as-is)
-15. [Limitation of Liability](#15-limitation-of-liability)
-16. [Indemnification](#16-indemnification)
-17. [Dispute Resolution, Governing Law & Jurisdiction](#17-dispute-resolution-governing-law--jurisdiction)
-18. [Modifications to Terms](#18-modifications-to-terms)
-19. [Severability & Entire Agreement](#19-severability--entire-agreement)
-20. [Contact Information & Official Legal Notices](#20-contact-information--official-legal-notices)
+1. [About these Terms](#1-about-these-terms)
+2. [Definitions](#2-definitions)
+3. [Our Role and the Service](#3-our-role-and-the-service)
+4. [Eligibility and Accounts](#4-eligibility-and-accounts)
+5. [Providers: Registration, Licenses and Verification](#5-providers-registration-licenses-and-verification)
+6. [Listings and Content Rules](#6-listings-and-content-rules)
+7. [Using MyDelala as a Seeker](#7-using-mydelala-as-a-seeker)
+8. [Fees, Plans, Wallet and Payments](#8-fees-plans-wallet-and-payments)
+9. [Refunds and Cancellations](#9-refunds-and-cancellations)
+10. [Provider Earnings, Referral Rewards and Payouts](#10-provider-earnings-referral-rewards-and-payouts)
+11. [Messages, Calls, Visits and Reviews](#11-messages-calls-visits-and-reviews)
+12. [Prohibited Conduct](#12-prohibited-conduct)
+13. [Reporting, Moderation and Enforcement](#13-reporting-moderation-and-enforcement)
+14. [Intellectual Property](#14-intellectual-property)
+15. [Third-Party Services](#15-third-party-services)
+16. [Privacy](#16-privacy)
+17. [Disclaimers](#17-disclaimers)
+18. [Limitation of Liability](#18-limitation-of-liability)
+19. [Indemnity](#19-indemnity)
+20. [Suspension, Termination and Account Deletion](#20-suspension-termination-and-account-deletion)
+21. [Changes to these Terms](#21-changes-to-these-terms)
+22. [Complaints and Disputes](#22-complaints-and-disputes)
+23. [Governing Law](#23-governing-law)
+24. [General Provisions](#24-general-provisions)
+25. [Contact Information](#25-contact-information)
+
+* [Annex A: Ethiopian Legal Framework](#annex-a-ethiopian-legal-framework)
+* [Annex B: Fees, Plans & Wallet Rules Schedule](#annex-b-fees-plans--wallet-rules-schedule)
 
 ---
 
-## 1. Acceptance of Terms & Eligibility
+## 1. About these Terms
 
-### 1.1 Binding Agreement
-
-These Terms and Conditions of Service ("Terms") constitute a legally binding agreement entered into between you (whether personally or on behalf of an entity, "User", "you", or "your") and **QIMEM Technologies PLC**, governing your access to and use of the **MyDelala** digital real-estate platform, including the MyDelala Seeker Mobile Application, MyDelala Broker/Provider Application, MyDelala Web Portal, Telegram Mini App, backend Application Programming Interfaces (APIs), and any associated services, documentation, or software (collectively, the "Platform").
-
-**BY ACCESSING, DOWNLOADING, INSTALLING, REGISTERING FOR, OR USING THE PLATFORM, YOU EXPRESSLY ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD, AND AGREE TO BE BOUND BY ALL PROVISIONS OF THESE TERMS, AS WELL AS OUR [PRIVACY POLICY](PRIVACY_POLICY.md). IF YOU DO NOT AGREE WITH ALL OF THESE TERMS, YOU ARE PROHIBITED FROM USING THE PLATFORM AND MUST CEASE ALL USAGE IMMEDIATELY.**
-
-### 1.2 Eligibility & Age Requirement
-
-The Platform is intended solely for individuals who are at least **eighteen (18) years of age** and possess the full legal capacity to enter into binding legal contracts under the laws of the Federal Democratic Republic of Ethiopia and applicable international jurisdictions. If you are registering an account on behalf of a corporation, partnership, or real estate agency, you represent and warrant that you hold the legal authority to bind such entity to these Terms.
+* **1.1 Who We Are:** MyDelala is owned and operated by Qimem Technologies PLC, a private limited company registered in Ethiopia, with registered offices in Bole Sub-City, Addis Ababa, Ethiopia ("Qimem", "we", "us").
+* **1.2 Scope:** These Terms govern your use of MyDelala and MyDelala Lite on Android, iOS, the web at [mydelala.et](https://mydelala.et), the Telegram Bot, Telegram Mini App, Telegram Sign-In, and APIs (the "Service").
+* **1.3 Electronic Acceptance:** Tapping "Agree", signing in, or using the Service forms a legally binding contract under the **Electronic Transaction Proclamation No. 1205/2020** and **Electronic Signature Proclamation No. 1072/2018**, equivalent to a signed paper document. If you disagree, do not use the Service.
+* **1.4 Incorporated Documents:** Our [Privacy Policy](PRIVACY_POLICY.md), Content Rules (Section 6), Annex A, and Annex B form part of these Terms.
+* **1.5 Languages:** Available in English and Amharic (and optionally Afaan Oromo, Tigrinya, and Somali). The English version prevails in case of ambiguity.
+* **1.6 Business Users:** If accessing for a company or agency, you confirm you are authorized to bind that entity.
 
 ---
 
-## 2. Definitions & Scope of Services
+## 2. Definitions
 
-| Term | Definition |
+| Term | Meaning |
 | :--- | :--- |
-| **"MyDelala" / "Platform"** | The suite of digital software applications, cloud services, and APIs developed, owned, and operated by QIMEM Technologies PLC. |
-| **"Seeker"** | Any registered or guest user exploring, searching, viewing, or inquiring about real estate properties for purchase, lease, or rent. |
-| **"Broker" ("Delala")** | An individual real estate facilitator, intermediary, or broker offering property discovery, consultation, or viewing services on the Platform. |
-| **"Agency"** | A legally registered corporate real estate brokerage, firm, or company managing a portfolio of agents and property listings. |
-| **"Owner"** | A verified legal owner, developer, or authorized landlord offering real estate properties directly on the Platform. |
-| **"Listing"** | Any real estate listing, advertisement, post, image gallery, video, price quote, or property specification published on the Platform. |
-| **"Appointment"** | A scheduled in-person or virtual property viewing arranged between a Seeker and a Provider via the Platform's scheduling engine. |
-| **"Provider"** | Collectively refers to Brokers, Agencies, and Property Owners offering services or listings on the Platform. |
+| **Seeker** | A person or entity searching for property to rent, buy, or lease. |
+| **Provider** | A broker (*delala*), agency, developer, or owner listing property or responding to requests. |
+| **Broker (*Delala*)** | An individual intermediary connecting parties to a property deal for commission. |
+| **Agency** | A licensed business carrying on real estate brokerage or agency work, and its authorized agents. |
+| **Owner** | A verified owner, landlord, or developer offering property directly. |
+| **Listing** | An advertisement on the Service with text, price, media, voice notes, and location. |
+| **Unlock** | A paid action revealing a Provider's verified telephone number to a Seeker. |
+| **Property Request** | A Seeker's structured post describing property needed, to which Providers may respond. |
+| **Wallet** | The prepaid in-app ETB balance usable solely for MyDelala services. |
+| **Plan / Bundle** | A package of units (unlocks, listings, messages) valid for a specific period. |
+| **Badge** | A trust label on a profile (*Verified, Bronze, Silver, Gold*) awarded after MyDelala checks. |
+| **Content** | Listings, photos, videos, voice notes, messages, reviews, and reports posted on the Service. |
 
 ---
 
-## 3. Marketplace Role & Disclaimers
+## 3. Our Role and the Service
 
-### 3.1 Technology Intermediary Only
-
-MyDelala operates strictly as a **neutral technological marketplace and discovery platform**. QIMEM Technologies PLC:
-
-1. **Is NOT a Real Estate Brokerage Firm:** We do not act as a licensed real estate broker, agent, landlord, escrow agent, appraiser, or property manager, unless explicitly stated under a separate written agreement.
-2. **Is NOT a Party to Property Contracts:** Any sales agreement, rental agreement, deed transfer, lease contract, or viewing fee arrangement negotiated between Users is entered into solely between the respective Seeker, Broker, Agency, or Owner. QIMEM is not a party to, nor an insurer, guarantor, or surety of any real estate transaction.
-3. **Does NOT Guarantee Properties:** We do not inspect, warrant, verify, or guarantee the structural condition, legal title, encumbrances, zoning compliance, or market valuation of any property advertised on the Platform. Users are solely responsible for conducting due diligence, title searches, and on-site physical verifications before executing contracts or exchanging funds.
-
----
-
-## 4. Account Registration, Roles & Security
-
-### 4.1 Account Types
-
-Users must register for the account type corresponding to their actual identity and legal status:
-
-- **Seeker Account:** Enables searching, bookmarking, booking viewings, in-app messaging, calling, and reviewing providers.
-- **Independent Broker Account:** For certified brokers marketing property portfolios, setting appointment availabilities, and communicating with seekers.
-- **Agency Account:** For corporate entities managing multiple brokerage agents, administrative oversight, and company-wide listing packages.
-- **Property Owner Account:** For individual property owners, direct developers, or authorized corporate landlords.
-
-### 4.2 Credential Integrity & Security Standards
-
-You are exclusively responsible for maintaining the confidentiality of your login credentials (phone number, password, OTP codes, and API keys). In compliance with our [Company Security Standards](docs/SECURITY_STANDARDS.md):
-
-- Passwords must adhere to our minimum complexity standards (minimum 10 characters, combining uppercase, lowercase, numbers, and symbols).
-- You must not share, transfer, assign, or permit any third party to access your account.
-- You agree to notify us immediately at [security@qimemtech.com](mailto:security@qimemtech.com) of any suspected unauthorized access or compromise of your account.
-- QIMEM is not liable for any losses or damages arising from your failure to protect your login credentials.
+* **3.1 Digital Marketplace:** We provide search feeds, map discovery, contact unlocks, in-app messaging/calls, visit scheduling, and payment processing.
+* **3.2 What We Are Not:**
+  * We are **not** a real estate broker, valuer, landlord, or developer, and we do not represent parties in deals.
+  * We are **not** a party to any rental, sale, lease, or brokerage contract between users.
+  * We do **not** hold deposits, advance rent, or commissions, and do not act as escrow.
+  * We are **not** a bank or e-money issuer. Payments are handled by licensed financial institutions.
+* **3.3 Information on the Service:** Listings and media are supplied by Providers. Price ranges or averages shown are software estimates, not certified valuations.
+* **3.4 Availability:** We strive for continuous uptime, but maintenance, network outages, or third-party disruptions may cause temporary interruptions.
+* **3.5 Feature Changes:** If a permanent update removes a paid feature you already bought, we will provide an equivalent replacement or a pro-rata refund of unused units to your wallet or original payment method.
 
 ---
 
-## 5. Identity Verification & KYC Compliance (Fayda Integration)
+## 4. Eligibility and Accounts
 
-### 5.1 Mandatory Provider Verification
-
-To safeguard consumers against fraud, phantom listings, and unlawful brokerage practices, all Brokers and Agencies must complete our mandatory Know-Your-Customer (KYC) verification workflow prior to publishing listings or confirming appointments.
-
-### 5.2 Verification Requirements
-
-Depending on your account tier, required documentation includes:
-
-1. **Ethiopian Digital ID (Fayda):** Secure authentication through the National ID Program (eSignet) system.
-2. **Government Identification:** Valid Passport, National ID card, or Driver's License.
-3. **Professional & Commercial Documentation:** Valid Real Estate Brokerage License, Commercial Registration Certificate, Tax Identification Number (TIN), and Agency Incorporation Documents.
-4. **Biometric Face Verification:** Live selfie matching to ensure identity authenticity.
-
-### 5.3 Truthfulness & Forgery Consequences
-
-Submitting forged, expired, misleading, or fraudulent documents constitutes a material breach of these Terms. QIMEM reserves the right to immediately suspend or permanently terminate your account, freeze active entitlements, and report fraudulent activities to the **Federal Police Commission**, **Ministry of Trade and Regional Integration**, and **INSA** (Information Network Security Administration).
+* **4.1 Age & Capacity:** You must be at least **18 years old** and legally capable of entering contracts under Ethiopian law. Minors are prohibited from registering.
+* **4.2 One Account Per Role:** You may hold one Seeker account and, if qualified, one Provider account. Fictitious accounts or creating accounts to evade bans are strictly prohibited.
+* **4.3 Authentication:** Sign-in is available via phone number (SMS OTP), Telegram OAuth, or Google OAuth. You are responsible for securing your phone, SIM, and credentials.
+* **4.4 Accurate Information:** You must provide accurate, current information and update it promptly.
+* **4.5 Security Notice:** Notify [security@qimemtech.com](mailto:security@qimemtech.com) immediately of unauthorized access. You are responsible for account activity until you notify us.
 
 ---
 
-## 6. Property Listings, Content & Representations
+## 5. Providers: Registration, Licenses and Verification
 
-### 6.1 Listing Standards & Accuracy Warranties
+### 5.1 Legal Requirements
 
-By publishing a Listing on MyDelala, Providers represent, warrant, and covenant that:
+Providers operating for commercial gain must hold statutory licenses: trade license under **Proclamation No. 980/2016**, Taxpayer Identification Number (TIN), and any competency certificates required under **Proclamation No. 1357/2024**.
 
-1. **Authorization:** You are the legal owner of the property or possess an authentic, written, and legally binding mandate from the registered property owner authorizing you to market, show, and negotiate the property.
-2. **Accuracy:** All details—including price (in Ethiopian Birr - ETB, or legally compliant foreign exchange currencies), location, dimensions, room count, utilities, encumbrances, and amenities—are 100% accurate, complete, and current.
-3. **Visual Content Authenticity:** All photographs, videos, and virtual tours depict the actual property listed. The use of stock photos, misleading digital enhancements, or images stolen from other platforms is strictly prohibited.
-4. **No Phantom or Duplicate Listings:** Listings must represent real, currently available properties. Once a property is sold, leased, or withdrawn from the market, the Provider must update or archive the listing within **twenty-four (24) hours**.
-5. **No Discriminatory Content:** Listings must comply with all anti-discrimination and fair housing laws. Descriptions discriminating against race, ethnicity, religion, gender, disability, marital status, or nationality are strictly forbidden.
+### 5.2 Verification Matrix
 
-### 6.2 License Grant to QIMEM
+| Provider Role | Mandatory Documents & Checks |
+| :--- | :--- |
+| **Broker (*Delala*)** | Fayda National ID (or valid Passport/Kebele ID), verification selfie, TIN, trade license (where required), physical office/work address, and references. |
+| **Agency** | Commercial registration, trade license, TIN, VAT certificate (if applicable), office address, manager ID, and authorized agent list. |
+| **Developer** | Agency documents plus Real Estate Developer Competency License and municipal construction permits. |
+| **Property Owner** | Government ID plus proof of ownership (Title Deed/Leasehold Certificate) or authenticated Power of Attorney (*Wukilna*) registered with DARS. |
 
-You retain ownership of your intellectual property and photographs. However, by uploading content to MyDelala, you grant QIMEM a worldwide, non-exclusive, perpetual, irrevocable, royalty-free, sublicensable license to host, store, cache, reproduce, display, index, format, and distribute your listings across our platforms, mobile applications, social media channels, and partner marketing networks.
-
-### 6.3 Moderation & Removal Discretion
-
-QIMEM reserves the absolute right, without prior notice, to review, edit, reject, de-list, or delete any listing that violates these Terms, is suspected of fraud, has received user complaints, or fails to satisfy our quality assurance benchmarks.
-
----
-
-## 7. Scheduling, Property Inspections & Code of Conduct
-
-### 7.1 Viewing Appointments
-
-The Platform provides an automated scheduling system allowing Seekers to book in-person appointments with Providers based on verified availability slots.
-
-### 7.2 Safety & Inspection Guidelines
-
-1. **Physical Safety First:** Users are strongly advised to conduct property viewings during daylight hours, verify provider identities via the app's badge before entering properties, and be accompanied by a companion when visiting unfamiliar locations.
-2. **Punctuality & Cancellation:** Users must arrive on time for confirmed appointments. If unable to attend, cancellations or rescheduling requests must be submitted through the app at least **two (2) hours** prior to the scheduled time.
-3. **Viewing Fees:** If a verified provider charges an administrative viewing or consultation fee in accordance with local regulations, such fee must be transparently disclosed in advance within the Platform before the Seeker books the slot. Demanding undisclosed cash fees on-site is strictly prohibited.
-4. **Professional Conduct:** Harassment, verbal abuse, intimidation, discrimination, or improper solicitations during appointments will result in an immediate permanent ban and referral to law enforcement.
+* **5.3 Verification Method:** Checks follow **Proclamation No. 1284/2023** (Fayda Digital ID) and **Proclamation No. 1321/2024** (PDPP). We verify public registries and authenticate Fayda tokens with your consent.
+* **5.4 Badges:** A badge indicates checks were passed on the issue date; it is not a guarantee of honesty or deal outcome. We may revoke badges upon expired credentials or complaints.
+* **5.5 Provider Duties:** Providers must:
+  * Act honestly and disclose their role and all commissions before the Seeker commits;
+  * Hold owner authorization for all listings and provide written receipts and tax invoices;
+  * Comply with rent caps and register leases with the woreda under **Proclamation No. 1320/2024**;
+  * Conduct AML/CFT checks if required under **Proclamation No. 780/2013**;
+  * Never charge Seekers for accessing MyDelala or claim to represent MyDelala.
+* **5.6 Agency Teams:** Agencies are strictly liable for the conduct of all agents on their corporate account.
 
 ---
 
-## 8. Fees, Subscriptions, Digital Wallet & Invoicing
+## 6. Listings and Content Rules
 
-### 8.1 Service Packages & Listing Quotas
-
-1. **Consumer Usage:** Browsing, searching, and inquiring on MyDelala is generally free for Seekers.
-2. **Provider Subscriptions:** Providers purchase tiered service packages, listing capacity quotas, and featured placement enhancements (boosts) to publish and manage listings.
-3. **Entitlements & Consumption:** Entitlements (e.g., listing units, featured duration) are deducted immediately upon activation.
-
-### 8.2 Payment Processing & Gateways
-
-All payments processed through the Platform are executed via licensed, PCI-DSS compliant third-party payment gateway providers:
-
-- **Telebirr** (Ethio Telecom)
-- **Chapa Financial Technologies**
-- **CBE Birr** (Commercial Bank of Ethiopia)
-- **Direct Bank Transfer / Verified Slip Upload**
-
-**Notice:** QIMEM does NOT store or process raw bank card numbers, CVVs, or mobile banking PINs. All financial transactions are subject to the terms and privacy practices of the respective licensed payment gateways.
-
-### 8.3 Invoicing & Value Added Tax (VAT)
-
-Invoices are generated electronically for every completed purchase in accordance with Ethiopian Revenue and Customs Authority (ERCA) regulations, specifying applicable taxes (including 15% VAT). Invoices may be downloaded in PDF format directly from your account dashboard.
-
-### 8.4 Strict No-Refund Policy
-
-Except as expressly mandated by applicable Ethiopian consumer protection laws or agreed upon in writing by QIMEM:
-
-- **All purchases of subscription packages, listing capacity units, digital wallet top-ups, and promotional boosts are non-refundable and non-transferable.**
-- Unused quotas expire at the conclusion of the validity period stated during purchase and do not roll over unless specified.
-- Account termination or suspension due to violation of these Terms forfeits all remaining quotas and active packages without compensation.
+* **6.1 Accuracy:** Listings must be genuine, currently available, and accurately describe type, location, size, price, terms, and defects.
+* **6.2 Media Standards:** Use recent, actual photos/video of the property. No stock photos, unauthorized watermarks, or images copied from third parties without permission.
+* **6.3 Pricing in ETB:** Prices must be in ETB, state frequency (per month/year/sale), and whether negotiable. Bait-and-switch pricing is prohibited.
+* **6.4 Map Pin & Landlord Privacy:** Pins must reflect the property area. To protect owner privacy, MyDelala may display a randomized neighborhood area until a contact is unlocked or visit agreed.
+* **6.5 48-Hour Delisting:** Mark properties as rented/sold or remove them within **48 hours** of becoming unavailable.
+* **6.6 Duplicates:** Do not list the same property multiple times. Duplicate listings may be merged or removed.
+* **6.7 Fair Housing:** Listings must not discriminate based on race, ethnicity, religion, sex, or disability (**FDRE Constitution Art. 25**). Lawful criteria (e.g., "family only") are allowed if applied fairly.
+* **6.8 Prohibited Listings:** No unauthorized listings, properties under undisclosed legal disputes, unpermitted pre-sales under **Proclamation No. 1357/2024**, or illegal goods.
+* **6.9 Advertising Laws:** All content must comply with **Proclamation No. 759/2012** (Advertising) and **Proclamation No. 813/2013** (Consumer Protection).
+* **6.10 Moderation:** We may format, deprioritize, hide, or remove non-compliant content with or without notice.
 
 ---
 
-## 9. User-Generated Content, Reviews, Blocking & Abuse Moderation
+## 7. Using MyDelala as a Seeker
 
-### 9.1 Community Reviews & Ratings
-
-Seekers who have interacted with or completed appointments with Providers may post public ratings and textual reviews. Providers have the right to submit one public response per review.
-
-- Reviews must be honest, factual, and based on firsthand experience.
-- Fabricating reviews, paying for positive reviews, or posting negative reviews against competitors is strictly prohibited and constitutes fraud.
-- QIMEM reserves the right to moderate, flag, or remove reviews that contain profanity, defamatory accusations, hate speech, or private personal information.
-
-### 9.2 In-App Messaging & Calling Standards
-
-The Platform provides real-time chat, file sharing, and WebRTC-based audio/video calling (powered by LiveKit). You agree:
-
-- Not to use communication tools for spam, bulk solicitations, harassment, extortion, or fraudulent schemes.
-- Not to upload or transmit malicious code, malware, viruses, objectionable media, or illegal files.
-- QIMEM reserves the right to employ automated screening tools to protect users from phishing, fraud, and illicit content.
-
-### 9.3 Zero Tolerance for Objectionable Content & Harassment
-
-In accordance with Google Play Developer Policies (User-Generated Content guidelines), QIMEM maintains a **strict zero-tolerance policy** against objectionable, abusive, or harmful content. This includes, without limitation:
-- Threatening, defamatory, obscene, pornographic, or sexually explicit material.
-- Harassment, bullying, stalking, hate speech, or discrimination based on race, ethnicity, religion, disability, age, nationality, or gender.
-- Deceptive real estate listings, bait-and-switch pricing, and fraudulent financial solicitations.
-- Any media or text that depicts violence or promotes unlawful acts.
-
-### 9.4 User Blocking & Interpersonal Communication Safeguards
-
-To ensure user autonomy, safety, and freedom from unwanted contact:
-- **Instant Unilateral Blocking:** Any User may block any other User at any time directly through the Platform's interface (`POST /v1/users/{id}/block`).
-- **Bidirectional Enforcement:** Once a block is placed, the Platform's architecture immediately and bidirectionally prevents both parties from:
-  1. Sending or receiving direct messages (`POST /v1/conversations/{id}/messages`).
-  2. Initiating or receiving WebRTC voice and video calls (`POST /v1/conversations/{id}/calls`).
-  3. Booking, scheduling, or confirming property viewing appointments (`POST /v1/appointments`).
-  4. Dispatching targeted private service requests or receiving broadcast notifications between the two parties.
-- Users can manage and review their blocked list or unblock users at any time via their account safety settings (`GET /v1/my/blocked-users` and `DELETE /v1/users/{id}/block`).
-
-### 9.5 In-App Abuse Reporting & 24-Hour Moderation SLA
-
-- **Flagging Mechanism:** Any User can report objectionable content, fraudulent listings, abusive messages, or harassing profiles directly from within the application interface (`POST /v1/reports/abuse`).
-- **Guaranteed 24-Hour Moderation SLA:** QIMEM's Trust & Safety moderation team operates a continuous moderation queue. **All user reports are formally reviewed, investigated, and acted upon within twenty-four (24) hours of submission.**
-- **Enforcement Actions:** If an investigation confirms a violation, QIMEM will take swift and decisive action, which may include:
-  1. Immediate removal of the offending listing, review, or content.
-  2. Formal written warning and temporary suspension of account privileges (`user_suspended`).
-  3. Permanent ban and termination of the offending user's account (`user_banned`), including hardware device and phone number blacklisting.
-  4. Referral to law enforcement authorities in cases involving criminal fraud, extortion, or physical threats.
+* **7.1 Free Browsing & Paid Units:** Browsing, searching, and map exploration are free. Unlocking contacts, posting custom requests, or messaging beyond free tiers use paid units.
+* **7.2 Unlocked Contact Use:** Contact details unlocked may be used **only** to inquire about that specific property. Reselling, scraping, publishing, or spamming is strictly prohibited.
+* **7.3 Viewing Safety:** Meet during daylight hours, confirm appointments in-app, and inform someone you trust of your viewing location.
+* **7.4 Seeker Due Diligence Checklist:** Before transferring funds:
+  1. Inspect the property in person or via live video call;
+  2. Verify the title deed, lease, or power of attorney (*Wukilna*);
+  3. Insist on a written contract and signed receipts for all payments;
+  4. Register residential leases with the woreda under rent law;
+  5. Use official conveyancing procedures for property purchases.
+* **7.5 Commissions:** Commission is agreed directly between you and the Provider. MyDelala does not set or collect brokerage fees.
 
 ---
 
-## 10. Geolocation Services, GPS Integrity & Anti-Spoofing Policy
+## 8. Fees, Plans, Wallet and Payments
 
-### 10.1 Geolocation Features
-
-The Platform utilizes foreground and background location data to:
-
-- Show properties and verified brokers located nearest to the Seeker.
-- Facilitate real-time transit and arrival tracking for confirmed property viewing appointments.
-- Verify that listings are situated accurately at their claimed geographic coordinates.
-
-### 10.2 Zero Tolerance for GPS Spoofing
-
-QIMEM employs active anti-spoofing heuristics (`GpsSpoofBlocker`), detecting mock locations, synthetic velocity anomalies, and GPS emulation software.
-
-- Providers must transmit genuine, unmanipulated device hardware GPS coordinates.
-- **The use of mock location apps, GPS spoofing utilities, VPNs to fake physical presence, or automated location emulation scripts is strictly prohibited.**
-- Detection of GPS manipulation triggers an automated 403 Forbidden security block, immediate revocation of provider verification badges, and possible account termination.
+* **8.1 Prices in ETB:** Prices are shown in ETB including VAT prior to purchase (**Proclamation No. 813/2013**). We give at least 15 days' notice for price changes; existing plans are unaffected.
+* **8.2 Payment Methods:** Payments are processed through licensed providers (Telebirr, CBE Birr, Chapa) under **Proclamation No. 718/2011 & 1282/2023**, and bank deposit verification. We do not store banking PINs or card CVVs.
+* **8.3 Currency:** All payments are in ETB. No cryptocurrency or virtual tokens are accepted.
+* **8.4 Invoices:** Electronic receipts are issued instantly. Businesses can request a VAT invoice with their TIN.
+* **8.5 Plans & Expiration:** Plans provide units valid for a set term. Unused units expire at term end. Plans do not auto-renew without affirmative opt-in.
+* **8.6 Wallet Rules:**
+  * The wallet is a prepaid balance for MyDelala services only.
+  * It is **not** a bank or e-money account, earns zero interest, and is non-transferable.
+  * Promotional credits have no cash value and may expire.
+  * On verified account closure, unused paid fiat funds will be refunded to your original payment method.
+* **8.7 Taxes:** Providers are solely responsible for their own income and commercial taxes.
 
 ---
 
-## 11. Intellectual Property & Platform Usage Rights
+## 9. Refunds and Cancellations
 
-### 11.1 Proprietary Rights
-
-All software, backend code, databases, user interface designs, visual layouts, graphics, logos, trademarks, domain names, patents, algorithms, and documentation comprising MyDelala are the exclusive property of **QIMEM Technologies PLC** and are protected by Ethiopian copyright, trademark, and industrial property laws, as well as international intellectual property treaties.
-
-### 11.2 Limited License
-
-Subject to your compliance with these Terms, QIMEM grants you a limited, non-exclusive, non-transferable, revocable license to download, install, and use the client applications on personal devices solely for your legitimate real estate search or service provision activities.
-
-### 11.3 Prohibited Technical Actions
-
-You agree that you will not:
-
-- Reverse engineer, decompile, disassemble, or attempt to derive the source code of any Platform software.
-- Use any automated robot, spider, scraper, crawler, or automated script to harvest, scrape, or extract data, listings, or user information from the Platform.
-- Bypass, modify, circumvent, or defeat any security controls, rate limiters (`ThrottleRequests`), bot blockers (`BlockBadBots`), API key checks (`VerifyClientApiKey`), or PostgreSQL Row-Level Security (RLS) policies.
-- Frame, mirror, or republish any component of the Platform without prior written consent from QIMEM.
+* **9.1 Payment Errors:** Failed or duplicate charges are refunded within **15 working days** or credited to your wallet.
+* **9.2 7-Day Unlock Guarantee:** If an unlocked phone number is unreachable, invalid, or the listing was fake/already taken, report it within **7 days** to have the unlock unit restored.
+* **9.3 48-Hour Plan Cooling-Off:** Full refund within 48 hours of purchase if **zero units** have been used. Non-refundable once units are consumed.
+* **9.4 Defective Services:** Under **Proclamation No. 813/2013**, you may request replacement or refund within 15 days if a paid service is defective or not as described.
+* **9.5 Policy Breaches:** No refunds for services terminated due to fraud, harassment, or Terms violations. Unused paid wallet money remains refundable under Section 8.6.
+* **9.6 How to Claim:** Submit via in-app **Help & Report → Payment** or email [support@mydelala.et](mailto:support@mydelala.et) with transaction reference.
 
 ---
 
-## 12. Prohibited Activities & Zero-Tolerance Violations
+## 10. Provider Earnings, Referral Rewards and Payouts
 
-Without limitation, you agree NOT to engage in any of the following prohibited behaviors:
-
-1. **Fraud & Deception:** Engaging in identity theft, impersonation, advance-fee scams, phantom property schemes, or misleading price quotations.
-2. **Off-Platform Circumvention:** Coercing or soliciting users to circumvent the Platform's security, communication, or verified payment mechanisms to evade platform integrity rules.
-3. **Cyberattacks & Disruption:** Launching Denial-of-Service (DoS) attacks, injecting SQL/script payloads, executing Server-Side Request Forgery (SSRF), or uploading executable binaries.
-4. **Unlawful Transactions:** Advertising properties subject to legal injunctions, court disputes, illegal expropriations, or unlawful developments.
-5. **Harassment & Exploitation:** Stalking, harassing, threatening, extorting, or defaming any user, employee, or agent of QIMEM.
+* **10.1 Payouts:** Rewards from referral programs are paid to a verified payout account registered in the provider's legal name.
+* **10.2 Tax Withholding:** Statutory withholding taxes are deducted as required by Ethiopian tax law (**Proclamation No. 983/2016**).
+* **10.3 Abuse Clawbacks:** Rewards linked to fake accounts, self-referrals, or reversed payments will be withheld or clawed back.
 
 ---
 
-## 13. Account Suspension, Deletion & Termination
+## 11. Messages, Calls, Visits and Reviews
 
-### 13.1 Termination by QIMEM
-
-QIMEM reserves the right, in its sole discretion and without liability, to suspend, restrict, or permanently terminate your account, remove your listings, and revoke your access to the Platform if:
-
-- You breach any provision of these Terms or the Privacy Policy.
-- Your identity documents or licenses fail verification or are found to be forged.
-- You engage in fraudulent, unlawful, or abusive conduct harming users or the Company.
-- Required by judicial, law enforcement, or regulatory directives.
-
-### 13.2 Account Deletion by User (Google Play Compliance)
-
-You may request the deletion of your account and personal data at any time:
-
-1. **In-App:** Navigate to `Account Settings → Privacy & Security → Delete Account`.
-2. **Web Portal:** Visit our public deletion portal at [https://mydelala.qimemtech.com/delete-account](https://mydelala.qimemtech.com/delete-account).
-3. **By Email:** Send a formal request to [privacy@qimemtech.com](mailto:privacy@qimemtech.com) from your registered email address.
-
-**30-Day Grace Period:** Upon submitting a deletion request, your account enters a 30-day grace period during which all public listings and profiles are deactivated. You may log in within these 30 days to cancel deletion. After 30 days, personal identification data is permanently anonymized or purged, subject to statutory accounting and tax record retention requirements under Ethiopian law.
+* **11.1 Standards:** In-app chat, voice notes, and calls must remain polite and limited to property business. No spam, sexual content, or off-platform deposit solicitations.
+* **11.2 Automated Fraud Alerts:** Automated filters scan for scam keywords (e.g., asking for deposits before viewing) to display safety warnings.
+* **11.3 Authentic Reviews:** Reviews must reflect genuine interactions. Fake, paid, or retaliatory reviews are prohibited. We moderate abuse, but do not remove reviews merely because they are negative.
+* **11.4 Right of Reply:** Providers may post polite, factual replies to reviews.
 
 ---
 
-## 14. Disclaimers of Warranties ("As Is")
+## 12. Prohibited Conduct
 
-YOU EXPRESSLY ACKNOWLEDGE AND AGREE THAT YOUR USE OF THE MYDELALA PLATFORM IS AT YOUR SOLE RISK. TO THE MAXIMUM EXTENT PERMITTED UNDER APPLICABLE LAW:
+You must not:
 
-- THE PLATFORM, ITS SERVICES, LISTINGS, MEDIA, AND CONTENT ARE PROVIDED ON AN **"AS IS"** AND **"AS AVAILABLE"** BASIS, WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE.
-- QIMEM DISCLAIMS ALL WARRANTIES, INCLUDING, WITHOUT LIMITATION, IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT, AND FREEDOM FROM COMPUTER VIRUSES OR BUGS.
-- QIMEM MAKES NO REPRESENTATIONS OR WARRANTIES REGARDING THE ACCURACY, RELIABILITY, COMPLETENESS, TITLE, LEGAL VALIDITY, OR CURRENT AVAILABILITY OF ANY PROPERTY, LISTING, BROKER CREDENTIAL, OR USER-GENERATED CONTENT.
-- QIMEM DOES NOT WARRANT THAT THE SERVICE WILL BE UNINTERRUPTED, TIMELY, SECURE, OR ERROR-FREE, OR THAT ANY DEFECTS WILL BE CORRECTED.
-
----
-
-## 15. Limitation of Liability
-
-TO THE FULLEST EXTENT PERMISSIBLE UNDER APPLICABLE LAW, IN NO EVENT SHALL **QIMEM TECHNOLOGIES PLC**, ITS DIRECTORS, SHAREHOLDERS, OFFICERS, EMPLOYEES, AFFILIATES, AGENTS, OR LICENSORS BE LIABLE TO YOU OR ANY THIRD PARTY FOR:
-
-1. **ANY INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL, PUNITIVE, OR EXEMPLARY DAMAGES**, INCLUDING LOSS OF PROFITS, LOSS OF REVENUE, LOSS OF DATA, LOSS OF BUSINESS OPPORTUNITY, OR REPUTATIONAL HARM, ARISING OUT OF OR IN CONNECTION WITH YOUR USE OR INABILITY TO USE THE PLATFORM.
-2. **ANY PROPERTY DISPUTES, CONTRACT BREACHES, TITLE DEFECTS, FINANCIAL LOSSES, FRAUD, OR PHYSICAL INJURY** ARISING FROM TRANSACTIONS, PROPERTY VIEWINGS, OR INTERACTIONS CONDUCTED BETWEEN USERS OF THE PLATFORM.
-3. **ANY UNAUTHORIZED ACCESS TO OR ALTERATION OF YOUR TRANSMISSIONS, DATA, OR ACCOUNT.**
-
-**MAXIMUM AGGREGATE LIABILITY:** UNDER NO CIRCUMSTANCES SHALL QIMEM'S TOTAL AGGREGATE LIABILITY ARISING OUT OF OR RELATING TO THESE TERMS OR YOUR USE OF THE PLATFORM EXCEED THE TOTAL AMOUNT ACTUALLY PAID BY YOU TO QIMEM IN SUBSCRIPTION OR LISTING FEES DURING THE **SIX (6) MONTHS** IMMEDIATELY PRECEDING THE EVENT GIVING RISE TO LIABILITY, OR **ONE THOUSAND ETHIOPIAN BIRR (ETB 1,000)**, WHICHEVER IS GREATER.
+1. Post fake, misleading, or unauthorized property listings;
+2. Post or share hate speech or disinformation (**Proclamation No. 1185/2020**);
+3. Harass, threaten, extort, or discriminate against any person;
+4. Scrape data, collect contact numbers, or deploy unauthorized bots;
+5. Hack, tamper with systems, or introduce malware (**Proclamation No. 958/2016**);
+6. Use the Service for money laundering, terror financing, or illegal transactions;
+7. Infringe copyrights, trademarks, or third-party rights;
+8. Manipulate reviews, rankings, badges, or referral incentives;
+9. Send unsolicited mass marketing via unlocked contacts;
+10. Use mock locations or synthetic GPS tools to spoof location.
 
 ---
 
-## 16. Indemnification
+## 13. Reporting, Moderation and Enforcement
 
-You agree to defend, indemnify, and hold harmless **QIMEM Technologies PLC**, its subsidiaries, affiliates, officers, directors, agents, partners, and employees from and against any and all claims, demands, liabilities, damages, losses, fines, penalties, costs, and expenses (including reasonable attorneys' fees) arising out of or related to:
-
-1. Your breach of these Terms, our Privacy Policy, or any applicable law or regulation.
-2. Any listing, content, photo, or media submitted, uploaded, or transmitted by you.
-3. Your conduct, representations, appointments, negotiations, or transactions with any other user or third party.
-4. Your infringement or violation of any third-party intellectual property, privacy, or proprietary rights.
+* **13.1 In-App Reporting:** Any user can report a listing, message, profile, or review directly within the app by tapping the **Report** button, or by emailing [report@mydelala.et](mailto:report@mydelala.et).
+* **13.2 24-Hour Action on Hate Speech and Disinformation:** Pursuant to **Proclamation No. 1185/2020** and our safety standards, verified reports regarding hate speech, ethnic incitement, or public safety disinformation are investigated and **acted upon within twenty-four (24) hours of receipt**.
+* **13.3 Sanctions:** Violations may trigger warnings, content removal, algorithmic deprioritization, badge revocation, feature restrictions, temporary suspension, permanent bans, and referral to law enforcement authorities.
+* **13.4 Appeals:** You may appeal moderation decisions within **14 days** via Help & Report. An independent compliance officer will review the case and respond within 14 days.
 
 ---
 
-## 17. Dispute Resolution, Governing Law & Jurisdiction
+## 14. Intellectual Property
 
-### 17.1 Governing Law
-
-These Terms and all disputes arising out of or relating to your use of the Platform shall be governed by, construed, and enforced in accordance with the substantive laws of the **Federal Democratic Republic of Ethiopia**, without regard to its conflict-of-law principles.
-
-### 17.2 Good-Faith Amicable Negotiation
-
-In the event of any controversy, claim, or dispute arising between you and QIMEM, the parties agree to first attempt in good faith to resolve the dispute amicably through informal negotiations by contacting [legal@qimemtech.com](mailto:legal@qimemtech.com). Formal negotiations must continue for a minimum period of **thirty (30) calendar days** before initiating judicial proceedings.
-
-### 17.3 Exclusive Jurisdiction & Venue
-
-If the dispute cannot be resolved through amicable negotiation within 30 days, both parties irrevocably agree that the dispute shall be submitted to the exclusive jurisdiction and venue of the **competent Federal Courts located in Addis Ababa, Ethiopia**.
+* **14.1 Qimem Rights:** Software, UI, branding, and databases belong to Qimem under **Proclamation No. 410/2004** (Copyright).
+* **14.2 User Content License:** You own your photos and descriptions. You grant Qimem a non-exclusive, royalty-free, worldwide license to host, format, display, and promote your listings while active on the Service and for archival/audit records.
+* **14.3 Copyright Complaints:** Send infringement notices with proof of ownership to [legal@mydelala.et](mailto:legal@mydelala.et).
 
 ---
 
-## 18. Modifications to Terms
+## 15. Third-Party Services
 
-QIMEM reserves the right to amend, update, or revise these Terms at any time to reflect operational, technological, security, or legal developments.
-
-- When material modifications are made, we will update the "Last Updated" date at the top of this document and notify users through in-app alerts, push notifications, or email.
-- Your continued access to or use of the Platform following the posting of revised Terms constitutes your unconditional acceptance of the updated terms. If you do not agree to the amended terms, you must terminate your account and cease using the Platform.
+The Service interfaces with Telegram, Google (OAuth & Maps), Mapbox, AfroMessage, and payment gateways. Their terms and privacy policies govern their use. We select secure partners and mandate data protection under contract.
 
 ---
 
-## 19. Severability & Entire Agreement
+## 16. Privacy
 
-### 19.1 Severability
-
-If any provision or part of a provision of these Terms is determined to be unlawful, void, or unenforceable by a court of competent jurisdiction, that provision shall be deemed severable and shall not affect the validity and enforceability of any remaining provisions.
-
-### 19.2 Entire Agreement
-
-These Terms, together with our [Privacy Policy](PRIVACY_POLICY.md), [Company Security Standards](docs/SECURITY_STANDARDS.md), and any formal invoices or subscription contracts, constitute the entire, complete agreement between you and QIMEM Technologies PLC concerning the Platform, superseding all prior communications, representations, or understandings.
+Personal data is processed in accordance with **FDRE Constitution Art. 26**, **Proclamation No. 1321/2024 (PDPP)**, and our **[Privacy Policy](PRIVACY_POLICY.md)**.
 
 ---
 
-## 20. Contact Information & Official Legal Notices
+## 17. Disclaimers
 
-For any questions, legal notices, complaints, or feedback regarding these Terms and Conditions, please contact our Legal & Corporate Affairs Department:
+* **17.1 "As Is":** The Service is provided "as is" and "as available". We do not warrant listing accuracy, property fitness, or user conduct.
+* **17.2 No Professional Advice:** Content is for general information only—not legal, tax, financial, or valuation advice.
+* **17.3 Consumer Protection:** Nothing in these Terms limits non-waivable statutory rights under **Proclamation No. 813/2013**.
 
-**QIMEM Technologies PLC**  
-Attn: Legal & Compliance Department  
-Bole Sub-City, Addis Ababa, Ethiopia  
+---
 
-- **General Inquiries:** [info@qimemtech.com](mailto:info@qimemtech.com)  
-- **Legal & Contracts:** [legal@qimemtech.com](mailto:legal@qimemtech.com)  
-- **Customer Support:** [support@qimemtech.com](mailto:support@qimemtech.com)  
-- **MyDelala Telegram Official Bot:** [@my_delalabot](https://t.me/my_delalabot)
-- **MyDelala Telegram Channel:** [@mydelala12](https://t.me/mydelala12)
-- **Company Website:** [https://qimemtech.com/](https://qimemtech.com/)
-- **Company TikTok:** [https://tiktok.com/@qimemtechnologies](https://tiktok.com/@qimemtechnologies)
-- **Company Telegram:** [https://t.me/qimemtechnologies](https://t.me/qimemtechnologies)
-- **Company LinkedIn:** [https://www.linkedin.com/company/qimem-technologies](https://www.linkedin.com/company/qimem-technologies)
-- **Company Facebook:** [https://www.facebook.com/share/1HncBvGQeo/](https://www.facebook.com/share/1HncBvGQeo/)
+## 18. Limitation of Liability
+
+* **18.1 User Dealings:** We are not liable for user-to-user transactions, unpaid deposits, property defects, or provider conduct, except where our own direct fault caused the loss.
+* **18.2 Consequential Loss:** We are not liable for indirect, incidental, or consequential damages (loss of profits, opportunity, or revenue).
+* **18.3 Financial Liability Cap:** Our maximum aggregate liability is limited to the greater of:
+  * Total fees paid by you to Qimem in the **6 months** prior to the claim; or
+  * **ETB 5,000**.
+* **18.4 Non-Excludable Liability:** Liability is not limited for gross negligence, willful misconduct, fraud, death, or personal injury caused by our fault.
+
+---
+
+## 19. Indemnity
+
+Providers and business users agree to indemnify Qimem for damages, fines, and legal costs arising from their breach of these Terms, uploaded content, or violation of laws, except to the extent caused by Qimem's own fault.
+
+---
+
+## 20. Suspension, Termination and Account Deletion
+
+* **20.1 User Closure & Deletion Channels:** You may close your account and initiate data deletion at any time:
+  * **In-App:** Via **Profile → Settings → Account → Delete Account**;
+  * **Web Portal:** Via our public account deletion request page at **[https://mydelala.et/account/delete](https://mydelala.et/account/delete)**.
+  Upon closure, listings are unpublished and unused paid wallet balances are refunded in accordance with Section 8.6.
+* **20.2 Termination by Qimem:** We may suspend or close accounts for material breach, fraud, legal requirement, or 24 months of dormancy (with prior notice).
+* **20.3 Surviving Terms:** Sections 2, 3.2, 8.6, 14, 17, 18, 19, 22, 23, and 24 survive account termination.
+
+---
+
+## 21. Changes to these Terms
+
+We may update these Terms to reflect legal or service changes. Material changes will be notified at least **15 days in advance** via in-app banner, SMS, or Telegram. If you disagree, you may close your account and receive a wallet refund. Continued use constitutes acceptance.
+
+---
+
+## 22. Complaints and Disputes
+
+* **22.1 Tier 1 (Support):** Contact Help & Report or [support@mydelala.et](mailto:support@mydelala.et). Acknowledged within 2 working days; resolution targeted within 15 working days.
+* **22.2 Tier 2 (Escalation):** Escalate to [complaints@mydelala.et](mailto:complaints@mydelala.et). You may also lodge complaints with the Ministry of Trade (consumer matters) or Ethiopian Communications Authority (data privacy).
+* **22.3 Tier 3 (Amicable):** Parties engage in mandatory 30-day informal amicable settlement discussions.
+* **22.4 Tier 4 (Courts & Arbitration):** Unresolved disputes go to competent courts in **Addis Ababa**. Business users and Qimem may agree to binding commercial arbitration in Addis Ababa under **Proclamation No. 1237/2021**. Consumer legal remedies remain preserved.
+
+---
+
+## 23. Governing Law
+
+These Terms are governed by the laws of the **Federal Democratic Republic of Ethiopia**, including the Civil Code (1960), Commercial Code (**Proclamation No. 1243/2021**), and enactments in Annex A.
+
+---
+
+## 24. General Provisions
+
+* **24.1 Electronic Notices:** You agree to electronic notices and records (**Proclamation No. 1205/2020**).
+* **24.2 Entire Agreement:** These Terms, Privacy Policy, Annex A, and Annex B form the entire agreement.
+* **24.3 Severability:** If any clause is invalid, the remainder remains in full effect.
+* **24.4 Assignment:** You cannot transfer your account. We may assign these Terms upon a corporate merger with notice, without reducing your rights.
+* **24.5 Force Majeure:** Neither party is liable for delays caused by power grid collapses, internet blackouts, natural disasters, unrest, or government acts.
+* **24.6 No Waiver:** Failure to enforce a provision does not waive future enforcement.
+
+---
+
+## 25. Contact Information
+
+* **Entity:** Qimem Technologies PLC · Bole Sub-City, Woreda 03, Addis Ababa, Ethiopia
+* **Website:** [https://mydelala.et](https://mydelala.et) · **Support:** [support@mydelala.et](mailto:support@mydelala.et)
+* **Complaints:** [complaints@mydelala.et](mailto:complaints@mydelala.et) · **Legal:** [legal@mydelala.et](mailto:legal@mydelala.et) · **DPO:** [privacy@mydelala.et](mailto:privacy@mydelala.et)
+
+---
+
+## Annex A: Ethiopian Legal Framework
+
+| Proclamation / Enactment | Number & Reference | Core Regulatory Relevance |
+| :--- | :--- | :--- |
+| **FDRE Constitution** | Proc. No. 1/1995 (Arts. 25 & 26) | Fundamental rights: equality, non-discrimination (Art. 25) and privacy (Art. 26). |
+| **Civil Code of Ethiopia** | Civil Code 1960 | Contract validity, property leases, agency, and non-contractual liability. |
+| **Commercial Code** | Proc. No. 1243/2021 | Business entities, commercial agency, and trade registration rules. |
+| **Personal Data Protection** | Proc. No. 1321/2024 (PDPP) | Data protection principles, rights, localization in Ethiopia (Art. 22), 72h breach notice. |
+| **Electronic Transactions & Signatures** | Proc. No. 1205/2020 & 1072/2018 | Enforceability of digital contracts, electronic click-throughs, and records. |
+| **Digital Identification (Fayda)** | Proc. No. 1284/2023 | Consent-based electronic KYC authentication via National ID. |
+| **Residential House Rent Control** | Proc. No. 1320/2024 | Mandatory woreda lease registration and residential rent administration. |
+| **Real Estate Marketing & Valuation** | Proc. No. 1357/2024 | Developer competence licensing, valuer rules, pre-construction sale safeguards. |
+| **Commercial Registration & Licensing** | Proc. No. 980/2016 | Commercial trade licensing and TIN requirements for real estate brokers. |
+| **Hate Speech & Disinformation** | Proc. No. 1185/2020 | Mandatory **24-hour takedown** of hate speech and public safety disinformation. |
+| **Trade Competition & Consumer Protection** | Proc. No. 813/2013 | Transparent ETB pricing with VAT, truthful ads, 15-day refund for defective service. |
+| **Computer Crime Proclamation** | Proc. No. 958/2016 | Criminalizes unauthorized system access, data tampering, scraping, and malware. |
+| **Anti-Money Laundering / CFT** | Proc. No. 780/2013 | Customer due diligence and reporting suspicious real estate transactions to FIS. |
+| **National Payment System** | Proc. No. 718/2011 & 1282/2023 | Regulatory rules for payment processors (Telebirr, CBE Birr, Chapa). |
+| **Arbitration & Conciliation** | Proc. No. 1237/2021 | Legal framework for binding commercial arbitration in Addis Ababa. |
+
+---
+
+## Annex B: Fees, Plans & Wallet Rules Schedule
+
+### B.1 Pricing Transparency
+
+All prices are displayed in **Ethiopian Birr (ETB)** and include statutory 15% VAT (**Proclamation No. 1341/2024** and **Proclamation No. 813/2013**).
+
+### B.2 Seeker Packages & Unlocks
+
+* **Free Tier:** Free map exploration, search, and listing bookmarking.
+* **Contact Unlocks:** Spent per contact reveal; covered by the **7-Day Unlock Guarantee** (Section 9.2).
+* **Property Requests:** Direct matchmaking broadcast to verified area providers.
+
+### B.3 Provider Packages (Brokers & Agencies)
+
+* **Bronze Starter:** 30-day plan for up to 5 active listings and standard placement.
+* **Silver Professional:** 30-day/6-month plan with up to 20 listings, priority placement, and *Verified* badge.
+* **Gold Agency Enterprise:** High-volume listings, team sub-accounts, top placement, and *Gold Agency* badge.
+
+### B.4 Wallet Operating Conditions
+
+1. **Scope:** Prepaid closed-loop credit for MyDelala services only.
+2. **No Banking:** Accrues zero interest; non-transferable to other users.
+3. **Cash-Out on Closure:** Unused paid capital is refunded to the verified original payment method within 15 working days upon account closure.

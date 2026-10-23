@@ -1,307 +1,304 @@
-# Privacy Policy
+# MyDelala Privacy Policy
 
-> **Last Updated:** October 17, 2026  
-> **Effective Date:** October 17, 2026  
-> **Version:** 2.0.0  
-> **Data Controller:** QIMEM Technologies PLC ("QIMEM", "Company", "we", "us", or "our")  
-> **Applicable Products:** MyDelala Mobile Applications (Android & iOS), MyDelala Web Portal, Telegram Mini App, and Backend APIs  
-> **Official Website:** [https://mydelala.qimemtech.com](https://mydelala.qimemtech.com)  
-> **Privacy Inquiries & DPO:** [privacy@qimemtech.com](mailto:privacy@qimemtech.com)
+> **Last Updated:** October 20, 2026 · **Effective Date:** October 23, 2026 · **Version:** 2.1.0  
+> **Data Controller:** Qimem Technologies PLC ("Qimem", "we", "us") · Bole Sub-City, Addis Ababa, Ethiopia  
+> **Products Covered:** MyDelala & MyDelala Lite (Android, iOS), Web Portal ([mydelala.et](https://mydelala.et)), Telegram Bot, Telegram Mini App, Telegram Sign-In, and Cloud APIs  
+> **Data Protection Officer (DPO):** [privacy@mydelala.et](mailto:privacy@mydelala.et) · **Support:** [support@mydelala.et](mailto:support@mydelala.et)
+
+---
+
+## Privacy at a Glance
+
+> [!NOTE]
+> A quick summary of how we handle your data. Read the full policy below for details.
+
+| Question | Short Answer |
+| :--- | :--- |
+| **Who is responsible for my data?** | **Qimem Technologies PLC**, as statutory Data Controller under Ethiopian law. |
+| **What do you collect?** | Account and contact data, provider verification files, listings, foreground location (with your permission), messages, payments, and app usage logs. |
+| **Why?** | To operate the marketplace, verify providers, match property requests, process payments, prevent fraud, meet legal duties, and (with consent) send offers. |
+| **Who sees my phone number?** | A Provider's number is revealed **only to Seekers who unlock it**. A Seeker's number is shared with a Provider **only when the Seeker contacts them or books a visit**. |
+| **Do you sell my data?** | **NO.** We never sell, rent, or trade your personal or location data to third parties or advertisers. |
+| **Where is it stored?** | Primary data is stored on secured servers located within **Ethiopia** (**Proclamation No. 1321/2024, Art. 22**). Limited processing abroad follows statutory safeguards. |
+| **Do you track my location in the background?** | **NO.** We do **not** track location in the background. We use precise GPS only in the foreground with your permission to show nearby listings and calculate distance. |
+| **How long do you keep it?** | Active accounts while in use; chat messages up to 24 months; tax and transaction ledgers for **10 years** as required by Ethiopian tax law. |
+| **What are my rights?** | Rights to be informed, access, correct, delete, object, restrict, port data, contest automated decisions, and 10-year post-mortem rights for lawful heirs. |
+| **Who can I contact?** | Our DPO at [privacy@mydelala.et](mailto:privacy@mydelala.et), and the **Ethiopian Communications Authority (ECA)** for regulatory escalation. |
 
 ---
 
 ## Table of Contents
 
-1. [Introduction & Scope](#1-introduction--scope)
-2. [Information We Collect](#2-information-we-collect)
-3. [Prominent Disclosure: Precise Location & Background Location Tracking](#3-prominent-disclosure-precise-location--background-location-tracking)
-4. [Device Permissions & Hardware Access (Android & iOS)](#4-device-permissions--hardware-access-android--ios)
-5. [Purposes & Legal Bases for Data Processing](#5-purposes--legal-bases-for-data-processing)
-6. [Sharing, Disclosure & International Transfer of Information](#6-sharing-disclosure--international-transfer-of-information)
-7. [Enterprise Security Architecture & Data Safeguards](#7-enterprise-security-architecture--data-safeguards)
-8. [Account Deletion, Data Retention & Erasure (Google Play Compliance)](#8-account-deletion-data-retention--erasure-google-play-compliance)
-9. [Your Legal Rights & Privacy Choices (GDPR, CCPA & Local Laws)](#9-your-legal-rights--privacy-choices-gdpr-ccpa--local-laws)
-10. [Children's Privacy Protection (Under 18 Policy)](#10-childrens-privacy-protection-under-18-policy)
-11. [Cookies, Telemetry & Analytical Technologies](#11-cookies-telemetry--analytical-technologies)
-12. [Third-Party Services, SDKs & External Gateways](#12-third-party-services-sdks--external-gateways)
-13. [Changes to this Privacy Policy](#13-changes-to-this-privacy-policy)
-14. [Contact Information & Data Protection Officer](#14-contact-information--data-protection-officer)
+1. [Who We Are and Scope](#1-who-we-are-and-scope)
+2. [Personal Data We Collect](#2-personal-data-we-collect)
+3. [Why We Use Your Data and Legal Basis](#3-why-we-use-your-data-and-legal-basis)
+4. [Sensitive and High-Risk Data](#4-sensitive-and-high-risk-data)
+5. [Location Data Policy](#5-location-data-policy)
+6. [What Other Users Can See](#6-what-other-users-can-see)
+7. [Messages, Calls and Voice Notes](#7-messages-calls-and-voice-notes)
+8. [Who We Share Data With](#8-who-we-share-data-with)
+9. [Where Your Data is Stored and Cross-Border Transfers](#9-where-your-data-is-stored-and-cross-border-transfers)
+10. [Data Retention and Account Deletion](#10-data-retention-and-account-deletion)
+11. [How We Protect Your Data](#11-how-we-protect-your-data)
+12. [Your Statutory Data Subject Rights](#12-your-statutory-data-subject-rights)
+13. [Marketing and Your Choices](#13-marketing-and-your-choices)
+14. [Automated Decisions and Profiling](#14-automated-decisions-and-profiling)
+15. [Children's Privacy](#15-childrens-privacy)
+16. [Cookies and Similar Technologies](#16-cookies-and-similar-technologies)
+17. [Data Breaches and 72-Hour Notification](#17-data-breaches-and-72-hour-notification)
+18. [Changes to this Policy](#18-changes-to-this-policy)
+19. [Contact and Complaints](#19-contact-and-complaints)
+
+* [Annex: Ethiopian Statutory Framework](#annex-ethiopian-statutory-framework)
 
 ---
 
-## 1. Introduction & Scope
+## 1. Who We Are and Scope
 
-**QIMEM Technologies PLC** is committed to protecting your fundamental right to privacy, confidentiality, and data sovereignty. This Privacy Policy applies to all users ("you", "your", "Seeker", "Broker", "Agency", or "Owner") accessing the **MyDelala** ecosystem across our mobile applications on the Google Play Store and Apple App Store, our responsive web portals, Telegram Mini Apps, and cloud API endpoints.
-
-This Privacy Policy explains transparently:
-
-- What categories of personal, biometric, technical, and geolocation data we collect;
-- Why and on what legal bases we process this data;
-- How we protect your data through advanced architectural safeguards (including PostgreSQL Row-Level Security, Argon2id/Bcrypt hashing, and PII log scrubbing);
-- Our strict adherence to global privacy frameworks (EU General Data Protection Regulation - **GDPR**, California Consumer Privacy Act - **CCPA**, and Ethiopian Personal Data Protection and Electronic Commerce Directives);
-- Our compliance with the **Google Play Developer Program Policies**, particularly regarding User Data, Location In The Background, Device Permissions, and Account Deletion.
+* **1.1 Data Controller:** Qimem Technologies PLC, Bole Sub-City, Addis Ababa, Ethiopia, decides why and how your personal data is processed on MyDelala and MyDelala Lite.
+* **1.2 Data Protection Officer (DPO):** Contact our DPO at [privacy@mydelala.et](mailto:privacy@mydelala.et) or in-app via **Settings → Privacy & Security**.
+* **1.3 Scope:** Applies to the MyDelala Android and iOS apps, web portal ([mydelala.et](https://mydelala.et)), Telegram Bot, Telegram Mini App, Telegram Sign-In, and customer support. It covers Seekers, Providers (Brokers, Agencies, Developers, Owners), and visitors.
+* **1.4 Statutory Law:** We process data under **Article 26 of the FDRE Constitution**, the **Personal Data Protection Proclamation No. 1321/2024 ("PDPP")**, the **Digital Identification Proclamation No. 1284/2023**, and the **Electronic Transaction Proclamation No. 1205/2020**.
+* **1.5 Core Principles:** Data is processed lawfully, fairly, transparently, for specific purposes, minimized to what is necessary, kept accurate, retained only as long as needed, and secured against unauthorized access.
 
 ---
 
-## 2. Information We Collect
+## 2. Personal Data We Collect
 
-We collect information directly from you, automatically through your device interactions, and from verified government authentication partners.
-
-### 2.1 Information You Provide to Us
-
-| Category | Specific Data Elements | Purpose & Usage |
+| Category | Examples | Source |
 | :--- | :--- | :--- |
-| **Account Identity** | Full name, mobile telephone number, email address, profile picture / avatar, user bio, specialization tags, and preferred language. | User account creation, profile display, role assignment, and multi-factor authentication. |
-| **Authentication Credentials** | Cryptographic password hashes, One-Time Password (OTP) verification tokens, and social identity linkages (Telegram, Google, Apple). | Securing your account access, session token generation, and credential management. |
-| **KYC & Identity Verification** | Ethiopian National ID (**Fayda**) verification tokens, National ID Card / Passport images, Taxpayer Identification Numbers (TIN), Real Estate Brokerage licenses, Commercial Registration documents, and live verification selfie images. | Mandatory fraud prevention, legal compliance, and provider verification before marketing properties to consumers. |
-| **Property Listings & Media** | Property photographs, video walkthroughs, floor plans, geographic addresses, price structures, lease terms, title deeds, and property amenity details. | Indexing, publishing, and displaying real estate listings to interested seekers on the platform. |
-| **In-App Communications** | Direct chat messages, audio/image attachments, appointment negotiation notes, dispute reports, and customer service inquiries. | Facilitating deal negotiations between parties, customer dispute resolution, and community safety enforcement. |
-| **Safety, Blocking & Abuse Reports** | Blocked counterparty identifiers, abuse reports, violation category, narrative description of abusive behavior, screenshots or attached evidence, and administrative resolution records. | Enforcing interpersonal blocking safeguards, investigating abuse, complying with Google Play Store safety directives, and maintaining community standards. |
-| **Reputation & Feedback** | Numerical ratings, textual reviews, provider public responses, and platform satisfaction surveys. | Fostering trust, accountability, and marketplace quality control. |
+| **Account Identity** | Full name, phone number, language, role (Seeker, Broker, Agency, Owner), password hash, SMS OTP code, profile photo, and bio. | You (registration and profile). |
+| **Sign-In (SSO)** | Telegram user ID, username, and photo; Google email, name, and profile ID. | Telegram or Google (when using SSO). |
+| **Provider Verification (KYC)** | Government ID type and number, Fayda number (with consent), ID document images, verification selfie, TIN, trade license, office address, and references. | You, Fayda auth service, public registries. |
+| **Listing Data** | Property specifications, price, photos, videos, voice notes, map pin, and owner authorization documents (*Wukilna*). | Providers and Property Owners. |
+| **Location Data** | Foreground GPS coordinates (with explicit permission) to show nearby listings; coarse location from IP address or selected sub-city. | Your device hardware (with consent). |
+| **Communications** | In-app chat messages, call logs (time, duration, participant UUIDs), voice notes, support tickets, and reports. | You and users you communicate with. |
+| **Activity Data** | Viewed/saved listings, search terms, unlocked contacts, property requests, inspection visits booked, and reviews written. | Your interactions with the Service. |
+| **Payment & Wallet** | Transaction amounts, service packages purchased, gateway references, wallet balance, and provider payout bank details. | You and payment providers (Telebirr, CBE Birr, Chapa). |
+| **Device & Technical** | Device model, operating system, app version, UUID, IP address, crash logs, and push notification tokens. | Your device and operating system. |
+| **Marketing Data** | Referral/ambassador codes, survey responses, and marketing preferences. | You and promotional partners. |
 
-### 2.2 Information Collected Automatically Through Your Use
+### 2.1 Device Permissions and Hardware Access
 
-| Category | Specific Data Elements | Purpose & Usage |
+MyDelala requests access to hardware capabilities strictly when needed for user-initiated actions:
+
+* **Camera and Photo Library:** Required solely to capture or upload listing media, property walkthroughs, or provider verification documents;
+* **Microphone:** Required solely to record property audio descriptions (voice notes) upon your request;
+* **Push Notifications:** Used to deliver appointment updates, chat alerts, transaction receipts, and essential safety notices.  
+*All permissions are optional, requested at runtime, and may be disabled at any time in your device's operating system settings.*
+
+> [!CAUTION]
+> **FINANCIAL DATA NOTICE:** We do **NOT** collect or store bank account passwords, mobile-money PINs, or raw credit/debit card numbers. All payments are processed directly by certified licensed gateways (**Telebirr**, **CBE Birr**, **Chapa**).
+
+---
+
+## 3. Why We Use Your Data and Legal Basis
+
+Under Article 7 of the PDPP, we process personal data only on statutory legal bases:
+
+| Purpose | Data Categories Used | Legal Basis (PDPP Art. 7) |
 | :--- | :--- | :--- |
-| **Precise Geolocation** | Latitude, longitude, GPS altitude, movement speed, horizontal accuracy, and timestamped telemetry. | Finding nearby properties, verified broker proximity discovery, transit tracking during property viewings, and anti-spoofing fraud defense. |
-| **Device & Network Data** | Device brand, model, operating system version, unique device identifier (UUID), IP address, mobile carrier, browser user-agent, and client API keys (`X-Platform-Client`). | Security defense, session device management, bot mitigation (`BlockBadBots`), and client platform access control. |
-| **Push Notification Tokens** | Firebase Cloud Messaging (FCM) registration tokens and active device session tokens. | Delivering real-time push alerts for appointment updates, incoming chat messages, and account security notifications. |
-| **LiveKit WebRTC Signaling** | Temporary WebRTC session connection metadata, participant socket room tokens, and call duration logs. | Powering end-to-end peer-to-peer audio and video calling between seekers and brokers. |
-| **Transaction & Billing Logs** | Payment gateway reference identifiers (Telebirr, Chapa, CBE Birr), invoice numbers, subscription packages, quota allocations, and bank deposit slip images. | Processing service purchases, issuing tax-compliant VAT invoices, quota tracking, and accounting compliance. |
-
-> **IMPORTANT NOTICE REGARDING FINANCIAL DATA:**  
-> QIMEM Technologies PLC does **NOT** collect, process, or store raw credit/debit card numbers, CVVs, or mobile banking PINs. All monetary transactions are processed directly by certified, licensed, PCI-DSS compliant payment gateways (**Ethio Telecom Telebirr**, **Chapa Financial Technologies**, and **Commercial Bank of Ethiopia CBE Birr**).
-
----
-
-## 3. Prominent Disclosure: Precise Location & Background Location Tracking
-
-> [!IMPORTANT]  
-> **GOOGLE PLAY DEVELOPER POLICY DISCLOSURE — LOCATION DATA**  
-> MyDelala collects and processes both **Foreground** and **Background** location data to enable essential real-time real-estate matching, appointment transit tracking, and GPS fraud prevention.
-
-### 3.1 Why MyDelala Collects Location Data
-
-Real estate brokerage requires physical presence and geographical proximity. MyDelala uses precise location data for:
-
-1. **Nearby Property & Broker Discovery (Foreground):** When you use the app, we utilize your current GPS coordinates to display properties, apartments, and verified brokers located within your immediate radius.
-2. **Scheduled Viewing Transit Tracking (Background — Providers Only):** For verified Brokers and Agencies on active duty who have a confirmed in-person property viewing appointment with a Seeker, the app collects location data **in the background (even when the app is closed or not in active screen focus)** to:
-   - Provide the waiting Seeker with a real-time transit estimate (ETA) and arrival confirmation.
-   - Ensure the physical safety of both parties during unfamiliar property inspections.
-   - Verify that the provider is genuinely traveling toward and present at the physical property location.
-3. **GPS Anti-Spoofing & Marketplace Integrity:** Our automated security subsystem (`GpsSpoofBlocker`) evaluates hardware telemetry to detect and prevent mock location apps, GPS spoofing utilities, and synthetic location manipulation.
-
-### 3.2 User Control & Transparency
-
-- **Opt-In Consent:** Background location is never initiated without your explicit, separate runtime permission prompt.
-- **Provider Duty Toggle:** Verified providers can toggle their active duty / visibility status **OFF** at any time within their app dashboard (`my/working-hours` and `providers/visibility`), which immediately halts background telemetry transmission.
-- **Never Sold or Monetized:** We **NEVER** sell, rent, license, or disclose your personal location telemetry to advertisers, data brokers, or commercial marketing syndicates.
+| **Create and run accounts, display feeds and maps** | Account, sign-in, activity, foreground location (if permitted). | **Performance of Contract** |
+| **Publish listings, process unlocks, chats, calls, visits** | Listing data, account, communications, activity. | **Performance of Contract** |
+| **Process payments, wallet, refunds, invoices** | Payment data, account identity, TIN. | **Contract & Legal Obligation** (tax laws) |
+| **Verify providers and issue badges** | Provider verification KYC, Fayda tokens, verification selfie. | **Explicit Consent & Legitimate Interest** (safe marketplace) |
+| **Prevent fraud, fake listings, and abuse** | Account, listing, device, activity, communications metadata. | **Legitimate Interest & Legal Obligation** |
+| **Act on hate speech notices within 24h** | Listing content, in-app communications, account. | **Legal Obligation** (**Proclamation No. 1185/2020**) |
+| **Customer support and complaints** | Account, communications, transaction records. | **Contract & Legitimate Interest** |
+| **App optimization and error monitoring** | Device telemetry, activity (pseudonymized where possible). | **Legitimate Interest** |
+| **Personalized feed recommendations** | Activity, search sub-city (toggleable off in Settings). | **Legitimate Interest** |
+| **Promotional messages by SMS/Telegram** | Mobile number, Telegram ID, preferences. | **Explicit Consent** (opt-in only; revokable anytime) |
+| **Surveys and user research** | Survey responses, feedback. | **Explicit Consent** |
+| **Defend legal claims and audit compliance** | Payment, account, and verification records. | **Legal Obligation & Legitimate Interest** |
 
 ---
 
-## 4. Device Permissions & Hardware Access (Android & iOS)
+## 4. Sensitive and High-Risk Data
 
-To deliver our services, the MyDelala mobile applications request access to specific hardware and system capabilities. Below is a complete breakdown of every sensitive permission requested, its technical identifier, and its strict justification:
-
-| Permission Name (Android / iOS) | Required / Optional | Technical Justification & Use Case |
-| :--- | :---: | :--- |
-| `ACCESS_FINE_LOCATION`<br>`ACCESS_COARSE_LOCATION` | Required for Map Features | Calculates distance to listings, places the user accurately on interactive maps, and discovers nearby verified real estate providers. |
-| `ACCESS_BACKGROUND_LOCATION` | Optional (Providers Only) | Enables active brokers and agencies to transmit heartbeat location telemetry during transit to scheduled property viewing appointments, even when the screen is locked or another app is open. |
-| `CAMERA` | Optional | Allows users to capture property photographs, video tours, upload profile pictures, capture verification selfies, scan national ID documents for KYC, and participate in LiveKit WebRTC video calls. |
-| `READ_MEDIA_IMAGES`<br>`READ_EXTERNAL_STORAGE` | Optional | Enables users to select and upload existing property photos, architectural blueprints, PDF ownership deeds, and bank deposit receipts from the device gallery. |
-| `RECORD_AUDIO` | Optional | Required strictly when initiating or answering live peer-to-peer voice and video calls with brokers or clients via LiveKit WebRTC. |
-| `POST_NOTIFICATIONS` | Optional (Recommended) | Transmits critical Firebase Cloud Messaging (FCM) alerts for appointment confirmations, reschedule requests, chat messages, and security notices. |
-
-You may revoke any of these permissions at any time via your device's operating system settings (`Settings → Apps → MyDelala → Permissions`). Revoking certain permissions (such as Location or Camera) may limit your ability to use specific features (such as map exploration or video calling).
+* **4.1 No Sensitive Data:** We do **not** collect health, religion, ethnicity, political opinions, or criminal records (**PDPP Arts. 9 & 10**). Do not include these in listings or chats.
+* **4.2 High-Risk Verification Data:** National ID documents, Fayda tokens, and live verification selfies are treated as high-risk data. They are encrypted with **AES-256**, accessible only to vetted compliance staff, and processed strictly for identity verification with your consent.
+* **4.3 Zero Biometric Surveillance:** Verification selfies are used solely for one-time visual matching against your government ID. They are **never used to train facial recognition AI or build a facial database**. Verification selfies are permanently purged within **90 days** of completed verification.
 
 ---
 
-## 5. Purposes & Legal Bases for Data Processing
+## 5. Location Data Policy
 
-In accordance with international standards (GDPR Art. 6) and Ethiopian legal frameworks, we process your personal data under the following lawful bases:
+* **5.1 Foreground-Only Collection:** We collect precise GPS coordinates **only while the app is actively open on your screen** and only after you grant runtime permission. You can turn this off anytime in device settings and choose a sub-city manually.
+* **5.2 Zero Background Location Tracking:**
+  > [!IMPORTANT]
+  > MyDelala does **NOT** collect, access, track, or monitor your geographic location in the background when the app is closed or minimized.
+* **5.3 Usage Scope:** Precise location is used solely to display properties near you, calculate distance/walking time, and help providers drop map pins.
+* **5.4 Landlord Privacy Protection:** To protect vacant properties and owners, search maps display an **approximate randomized neighborhood circle**. Exact pinpoint addresses are revealed only after a Seeker unlocks the contact or schedules a viewing.
 
-| Processing Purpose | Categories of Data | Legal Basis (GDPR / Statutory) |
+---
+
+## 6. What Other Users Can See
+
+| Information | Who Can See It |
+| :--- | :--- |
+| **Provider Profile** | Everyone (business name, avatar, badge, rating, reviews, active listings, operational sub-city). |
+| **Provider Direct Phone** | **Seekers who unlock the contact** using platform units. |
+| **Seeker Phone & Identity** | **Providers contacted by the Seeker** (via direct message, call, or booked visit). Never public. |
+| **Property Request** | Verified Providers in that sub-city/category (seeker phone is concealed; replies go to deal inbox). |
+| **User Reviews** | Everyone (reviewer display name, star rating, and review text). |
+| **Chat Messages & Calls** | Only the participating parties (accessible to moderation staff only upon dispute/report). |
+
+*Unlocked contact details may be used strictly for inquiring about that property (**Terms, Section 7.2**).*
+
+---
+
+## 7. Messages, Calls and Voice Notes
+
+* **7.1 History & WebRTC Calls:** Chat messages and voice notes are stored to maintain history across devices. Voice calls use peer-to-peer WebRTC and log connection metadata (timestamp, duration); **we do not record call audio**.
+* **7.2 Confidentiality & Scam Detection:** Staff do not read private messages except to investigate reported abuse or fraud. Automated filters scan for advance deposit requests before viewings to display immediate scam warning banners.
+
+---
+
+## 8. Who We Share Data With
+
+We do **not** sell personal data. We share data only with:
+
+1. **Other Marketplace Users:** As described in Section 6 to enable property discovery.
+2. **Payment Providers:** Telebirr, CBE Birr, Chapa to process purchases, wallet top-ups, and payouts.
+3. **SMS Gateways:** AfroMessage, Ethio Telecom to dispatch verification OTPs and alerts.
+4. **Cloud Infrastructure:** Secure hosting and data centers located in Ethiopia under **PDPP Art. 46** processor contracts.
+5. **Mapping Services:** Google Maps, Mapbox to display maps and routes (coordinates anonymized).
+6. **Sign-In Providers:** Telegram and Google to authenticate SSO sessions.
+7. **Error Monitoring:** Crashlytics, Sentry to capture crash diagnostics (PII-stripped).
+8. **Fayda Authentication:** National ID Program to authenticate broker/agency identity tokens with your consent.
+9. **Ambassadors & Referees:** To verify promotional referral codes without disclosing personal search history.
+10. **Legal & Audit Advisers:** Under strict professional non-disclosure duties.
+11. **Authorities & Courts:** When required by a valid judicial court order or statutory command.
+12. **Business Successors:** Under identical privacy safeguards with prior notice upon a merger or acquisition.
+
+---
+
+## 9. Where Your Data is Stored and Cross-Border Transfers
+
+* **9.1 Data Localization in Ethiopia:** In compliance with **Article 22 of the PDPP**, all primary personal data, listings, chats, and payment logs are hosted on servers located within **Ethiopia**.
+* **9.2 Cross-Border Safeguards:** Ancillary tools (Google SSO, Telegram, Mapbox) may process limited data abroad strictly under **PDPP Articles 18–21** (ECA adequacy, explicit consent, or necessary for contract).
+* **9.3 No Overseas Transfer of Sensitive Data:** Sensitive provider KYC documents, National ID images, and verification selfies are **never transferred or stored outside Ethiopia** without prior written authorization from the ECA.
+
+---
+
+## 10. Data Retention and Account Deletion
+
+### 10.1 Retention Schedule
+
+| Data Category | Retention Period | Post-Retention Action |
 | :--- | :--- | :--- |
-| **Service Provision & Contract Execution** | Account details, listings, bookings, messaging, call connection data, payments. | **Contractual Necessity:** Processing is required to perform the Terms and Conditions entered into with you. |
-| **Identity Verification & Anti-Fraud** | Fayda National ID tokens, government IDs, broker licenses, selfies, GPS spoof screening. | **Legal Obligation & Legitimate Interest:** Preventing fraud, money laundering, and illegal real estate brokerage practices. |
-| **Background Transit Tracking** | Background GPS coordinates of verified providers during scheduled appointments. | **Explicit Consent & Legitimate Interest:** Ensuring consumer safety, transit predictability, and appointment verification. |
-| **Invoicing & Tax Compliance** | Legal name, TIN, purchase histories, VAT invoices, payment audit trails. | **Legal Obligation:** Complying with Ethiopian Revenue and Customs Authority (ERCA) financial record-keeping laws. |
-| **Platform Cybersecurity & Threat Defense** | IP addresses, request headers, error logs, audit logs, device fingerprints. | **Legitimate Interest:** Protecting infrastructure against DoS attacks, bot exploitation, SSRF, and data breaches. |
+| **Account Identity** | Active lifespan of account, plus up to **12 months** after closure for fraud defense. | Permanently deleted or anonymized. |
+| **Listings & Media** | Active lifespan of listing, plus up to **6 months** after removal. | Listing media deleted; stats anonymized. |
+| **Provider KYC Documents** | Active lifespan of Provider account, plus **2 years** after closure. | Secure digital destruction. |
+| **Verification Selfies** | Up to **90 calendar days** after verification completion. | Automatically purged from vaults. |
+| **Messages & Voice Notes** | Up to **24 months** after the last message in a conversation. | Permanently deleted from active databases. |
+| **Call Session Logs** | **12 months** from call initiation. | Truncated from routing ledgers. |
+| **Payments, Wallet & Tax Records** | **10 years** as mandated by Ethiopian tax and AML laws (**Proc. No. 983/2016**). | Secure encrypted financial archive. |
+| **Foreground GPS Coordinates** | Real-time use only; discarded immediately after distance calculation. | Never saved to persistent history tables. |
+| **Support & Dispute Files** | **3 years** after case closure. | Purged from ticketing platforms. |
+| **Technical & Security Logs** | Rolling window of up to **12 months**. | Overwritten via rolling log rotation. |
+
+### 10.2 Account Deletion and Data Erasure
+
+You have the permanent right to delete your account and associated personal data at any time through either of the following channels:
+
+* **In-App Deletion:** Open the mobile application and navigate to **Profile → Settings → Account → Delete Account**.
+* **Web Portal Deletion:** Access our public account deletion request page at **[https://mydelala.et/account/delete](https://mydelala.et/account/delete)**.
+* **Deletion Impact:** Account deletion immediately disables your profile, removes active listings, deletes login credentials, and initiates cryptographic erasure of your personal data, subject only to statutory tax retention mandates (payment records retained for 10 years as required by Ethiopian tax law).
 
 ---
 
-## 6. Sharing, Disclosure & International Transfer of Information
+## 11. How We Protect Your Data
 
-We treat your personal information with strict confidentiality. We share data only under defined circumstances:
-
-### 6.1 Marketplace Counterparties
-
-To facilitate property discovery and viewings:
-
-- **Public Profile:** A Provider's business name, profile photo, verified badge, average review rating, and public listings are accessible to all users.
-- **Confirmed Appointments:** Once an appointment is confirmed, the Seeker's contact information and the Provider's direct telephone number and appointment location are shared between the two parties.
-
-### 6.2 Trusted Third-Party Infrastructure Providers
-
-We engage specialized, enterprise-grade technology processors bound by strict Data Processing Agreements (DPAs):
-
-- **Payment Gateways:** Ethio Telecom (Telebirr), Chapa Financial Technologies, Commercial Bank of Ethiopia (CBE Birr).
-- **Cloud Infrastructure & Managed Databases:** Encrypted cloud hosting and Neon / PostgreSQL enterprise database clusters with automated backups.
-- **Communications & WebRTC:** Google Firebase Cloud Messaging (FCM for push notifications) and LiveKit Inc. (WebRTC video and audio infrastructure).
-- **Identity & National Registry:** National ID Program of Ethiopia (Fayda / eSignet) for identity verification.
-
-### 6.3 Legal Compliance & Protection of Rights
-
-We may disclose personal data to law enforcement, judicial bodies, the Ethiopian Information Network Security Administration (**INSA**), or regulatory authorities if:
-
-- Required by a valid court order, search warrant, or statutory subpoena.
-- Necessary to investigate suspected fraud, phantom listings, property extortion, or criminal conduct.
-- Necessary to protect the physical safety, property, or legal rights of our users, employees, or the public.
+* **Encryption:** TLS 1.3 / HTTPS in transit; AES-256 encryption at rest for sensitive KYC vaults and passwords.
+* **Credentials:** Passwords hashed with high-entropy cryptographic algorithms (Argon2id / Bcrypt); raw passwords are never visible.
+* **Access Controls:** Strict Role-Based Access Control (RBAC), mandatory Two-Factor Authentication (2FA) for staff, and immutable audit logs.
+* **Data Minimization:** Automated PII log scrubbing strips phone numbers and passwords from server debug logs.
+* **Impact Assessments:** Data Protection Impact Assessments (DPIA) conducted for high-risk operations (**PDPP Art. 47**).
 
 ---
 
-## 7. Enterprise Security Architecture & Data Safeguards
+## 12. Your Statutory Data Subject Rights
 
-As detailed in our [Company Security Standards](docs/SECURITY_STANDARDS.md), QIMEM implements defense-in-depth safeguards across every tier:
+Under **Articles 23–32 of the PDPP**, you hold enforceable rights:
 
-```
-┌────────────────────────────────────────────────────────┐
-│ Transport Layer: TLS 1.3 / HTTPS Encryption Everywhere │
-├────────────────────────────────────────────────────────┤
-│ Perimeter: Rate-Limiting, Bot-Blocking & SSRF Guard   │
-├────────────────────────────────────────────────────────┤
-│ Application: Strict Granular RBAC (checkPermission)    │
-├────────────────────────────────────────────────────────┤
-│ Database: PostgreSQL Row-Level Security (RLS) Isolation │
-├────────────────────────────────────────────────────────┤
-│ Data at Rest: AES-256 Storage & Argon2id Password Hash │
-└────────────────────────────────────────────────────────┘
-```
+1. **Right to Be Informed:** Transparent information on data handling (this Policy).
+2. **Right of Access:** Request confirmation and an electronic copy of personal data held about you.
+3. **Right to Rectification:** Correct inaccurate, incomplete, or outdated data.
+4. **Right to Erasure ("Be Forgotten"):** Delete data no longer needed or where consent is withdrawn (subject to 10-year tax retention).
+5. **Right to Restrict Processing:** Restrict data processing during dispute verification.
+6. **Right to Object:** Object to legitimate interest processing and direct marketing at any time.
+7. **Right to Data Portability:** Receive your data in a structured, machine-readable format (JSON/CSV).
+8. **Right Regarding Automated Decisions:** Demand human review for decisions with legal or significant effects.
+9. **Right to Withdraw Consent:** Withdraw consent at any time without affecting prior lawful processing.
+10. **Post-Mortem Heir Rights:** Lawful heirs may exercise data rights for **10 years** following a person's death (**PDPP Art. 32**).
 
-1. **PostgreSQL Row-Level Security (RLS):** Database queries are isolated at the database engine kernel level using tenant and user session injection (`app.current_user_id`), rendering Insecure Direct Object References (IDOR) impossible.
-2. **Password Security:** Passwords are never stored in plain text. We utilize salted, high-entropy hashing algorithms (Argon2id and Bcrypt with a minimum cost factor of 12) with anti-recycling history tracking.
-3. **Sensitive PII Scrubbing:** Application logs, error monitoring tools (Sentry), and audit trails employ automated scrubbers (`SensitiveDataScrubber`) that systematically redact national IDs, telephone numbers, passwords, and authorization tokens.
-4. **Secure Media Isolation:** Uploaded KYC identity documents and business licenses are stored in private, unguessable UUID-based storage disks accessible only by authorized compliance personnel via time-limited signed URLs.
+*To exercise your rights, use **Settings → Account → Privacy & Data** or email [privacy@mydelala.et](mailto:privacy@mydelala.et). We verify identity and respond within **30 days** free of charge.*
 
 ---
 
-## 8. Account Deletion, Data Retention & Erasure (Google Play Compliance)
+## 13. Marketing and Your Choices
 
-> [!IMPORTANT]  
-> **GOOGLE PLAY ACCOUNT DELETION COMPLIANCE**  
-> You have the absolute right to permanently delete your MyDelala account and all associated personal data at any time, both from within the mobile application and via our external web portal.
-
-### 8.1 How to Delete Your Account
-
-We provide three simple, accessible deletion pathways:
-
-1. **In-App Deletion (Mobile):**  
-   Open the MyDelala app → Navigate to `Profile` → `Settings` → `Privacy & Security` → Select **"Delete Account"** → Enter your password/OTP to confirm.
-2. **Dedicated Web Deletion Portal (No app required):**  
-   Visit our public account deletion portal at:  
-   👉 **[https://mydelala.qimemtech.com/delete-account](https://mydelala.qimemtech.com/delete-account)**
-3. **Direct Email Request:**  
-   Send an email with the subject line *"Account Deletion Request"* from your registered email address to **[privacy@qimemtech.com](mailto:privacy@qimemtech.com)**.
-
-### 8.2 The 30-Day Grace Period & Permanent Erasure Process
-
-To protect users against accidental deletion or unauthorized account hijack:
-
-- **Phase 1: Immediate Deactivation (Days 1–30):** Your profile, public listings, active appointments, and broker badges are immediately hidden from all marketplace search results and public views. If you log back into your account within thirty (30) calendar days, you may cancel the deletion request and restore your account.
-- **Phase 2: Irreversible Scrubbing (Day 31+):** Once the 30-day grace period concludes, our automated purging system permanently anonymizes your record:
-  - Phone number is scrubbed and permanently overwritten with an anonymized sentinel value (`+999000000000`).
-  - Name is replaced with `[Deleted User]`.
-  - Profile pictures, KYC documents, broker licenses, and device tokens are permanently destroyed from our storage disks.
-  - Social login links (Telegram, Google, Apple) are unlinked and session caches are flushed.
-
-### 8.3 Data Retained for Statutory Legal & Tax Obligations
-
-Under Ethiopian commercial, taxation, and anti-money laundering legislation:
-
-- Completed financial invoices, VAT receipts, and transaction records must be retained for the minimum statutory retention period (ten (10) years) required by the Ethiopian Revenue and Customs Authority (ERCA).
-- Historical audit logs recording administrative moderation actions or financial transfers are archived in anonymized form for regulatory compliance and dispute defense.
-
-### 8.4 Blocked Users Data & Abuse Report Evidence Retention
-
-In accordance with mobile platform compliance and user protection standards:
-
-- **Blocked Users Registry:** When you block another user, the blocking record (`user_id`, `blocked_user_id`, reason, and timestamp) is stored to enforce real-time communication filtering across chat, calls, appointments, and service requests. If you delete your account, your active block records are anonymized and released.
-- **Abuse Reports & Moderation Evidence:** In order to comply with international consumer safety laws and mobile app store mandates, records of submitted abuse reports (`reporter_id`, `reported_user_id`, category, evidence descriptions, resolution notes) are retained for a period of up to three (3) years to prevent serial bad actors, fraud syndicates, and repeated harassment. When an account is deleted, the user's personal identity is scrubbed, while the incident report history remains preserved for safety analytics and legal compliance.
+* **13.1 Opt-In Only:** Promotional messages via SMS, Telegram, push, or email are sent **only with your prior opt-in consent**.
+* **13.2 Opting Out:**
+  * **SMS:** Reply **STOP** to any promotional message;
+  * **In-App:** Toggle off promotional alerts in **Settings → Notifications**;
+  * **Email:** Click "Unsubscribe" in promotional emails.
+* **13.3 Service Notices:** Transactional alerts (OTPs, receipts, appointment updates, legal notices) are non-marketing and cannot be disabled.
+* **13.4 Feed Personalization:** Toggle off personalized recommendations in Settings to view listings sorted strictly chronologically and by distance.
 
 ---
 
-## 9. Your Legal Rights & Privacy Choices (GDPR, CCPA & Local Laws)
+## 14. Automated Decisions and Profiling
 
-Depending on your geographic residency, you possess extensive statutory privacy rights:
+* **14.1 Algorithms Used:** We use algorithms to index search results, match property requests with providers, calculate trust badge scores, and detect spam/fraud patterns.
+* **14.2 Human Review Guarantee:** We do **not** make decisions producing legal or significant impacts (e.g., permanent account bans or badge refusals) based solely on automated processing (**PDPP Art. 30**). All bans and badge rejections are reviewed by a human compliance officer, and you may contest decisions via Help & Report.
 
-| Right | What It Means for You | How to Exercise |
+---
+
+## 15. Children's Privacy
+
+MyDelala is strictly for users aged **18 and older**. Under the PDPP, a child is a person under 16, and processing child data requires parental consent. We do not knowingly collect data from children. If discovered, it is purged immediately. Contact [privacy@mydelala.et](mailto:privacy@mydelala.et) for deletion requests.
+
+---
+
+## 16. Cookies and Similar Technologies
+
+Our web portal and Telegram Mini App use strictly necessary cookies to keep you signed in, remember language, and maintain security defenses (`X-Platform-Client`). Optional analytics cookies evaluate traffic flows only with your cookie banner consent.
+
+---
+
+## 17. Data Breaches and 72-Hour Notification
+
+* **17.1 ECA Notification:** Pursuant to **Article 43 of the PDPP**, Qimem notifies the **Ethiopian Communications Authority within 72 hours** of becoming aware of a data breach posing risk to user rights.
+* **17.2 User Notification:** Under **Article 44 of the PDPP**, if a breach poses high risk to your personal security or financial integrity, we notify you directly without undue delay with mitigation advice.
+
+---
+
+## 18. Changes to this Policy
+
+Material changes will be notified at least **15 days in advance** via in-app notification, SMS, or Telegram. The date at the top reflects the latest version. Continued use constitutes acceptance.
+
+---
+
+## 19. Contact and Complaints
+
+* **19.1 Data Protection Officer:** [privacy@mydelala.et](mailto:privacy@mydelala.et) · Qimem Technologies PLC, Bole Sub-City, Woreda 03, Addis Ababa, Ethiopia. We acknowledge requests within 2 working days.
+* **19.2 Regulatory Escalation:** If unresolved within 30 days, you may lodge a complaint with the **Ethiopian Communications Authority (ECA)** at [info@eca.et](mailto:info@eca.et) or [https://eca.et](https://eca.et), or seek judicial remedies.
+
+---
+
+## Annex: Ethiopian Statutory Framework
+
+| Enactment | Reference | Core Relevance to Privacy |
 | :--- | :--- | :--- |
-| **Right of Access / Portability** | Request a machine-readable copy (JSON/CSV) of all personal data we maintain about you. | Email [privacy@qimemtech.com](mailto:privacy@qimemtech.com) or download via the Web Portal. |
-| **Right to Rectification** | Correct inaccurate, out-of-date, or incomplete profile or property information. | Update directly via `Profile → Edit Profile` or contact support. |
-| **Right to Erasure ("Right to be Forgotten")** | Demand the permanent deletion of your account and personal data. | Follow the steps outlined in Section 8. |
-| **Right to Restrict Processing** | Restrict how we process your data while an investigation or dispute is pending. | Submit a formal restriction notice to our DPO. |
-| **Right to Withdraw Consent** | Revoke consent previously granted for location tracking, push notifications, or camera access. | Adjust operating system permissions on your mobile device at any time. |
-| **CCPA "Do Not Sell" Disclosure** | We **do not sell or share** your personal data with third-party data brokers for commercial monetization. | Applicable to all users globally by default. |
-
-To exercise any of these rights, contact our Data Protection Officer at **[privacy@qimemtech.com](mailto:privacy@qimemtech.com)**. We respond to and fulfill verified privacy requests within **thirty (30) business days** without charge.
-
----
-
-## 10. Children's Privacy Protection (Under 18 Policy)
-
-MyDelala is strictly designed, intended, and operated for individuals who are **eighteen (18) years of age or older**. Real estate discovery, property leasing, commercial transactions, and broker engagements involve legally binding contracts that minors cannot execute under Ethiopian law.
-
-We do not knowingly solicit, collect, or process personal data from children under the age of 18. If we become aware that an account has been registered by a minor under 18, we will immediately freeze the account, cancel pending appointments, and permanently purge all associated personal information from our databases. If you believe a minor has provided us with personal information, please notify us immediately at [privacy@qimemtech.com](mailto:privacy@qimemtech.com).
-
----
-
-## 11. Cookies, Telemetry & Analytical Technologies
-
-### 11.1 Web Portal Cookies
-
-When using our web applications ([https://mydelala.qimemtech.com](https://mydelala.qimemtech.com) and [https://delala-admin.qimemtech.com](https://delala-admin.qimemtech.com)), we employ essential session cookies and security tokens:
-
-- **Authentication Cookies:** Secure, HTTP-only, SameSite cookies maintaining your active dashboard session.
-- **CSRF Tokens:** Cross-Site Request Forgery tokens preventing malicious sites from executing unauthorized actions on your behalf.
-- **Locale & Preference Cookies:** Storing your chosen interface language (English, Amharic, Oromo, Tigrinya).
-
-We do **NOT** deploy third-party advertising cookies, cross-site trackers, or behavioral advertising tracking pixels.
-
----
-
-## 12. Third-Party Services, SDKs & External Gateways
-
-Our mobile and web applications incorporate trusted third-party Software Development Kits (SDKs) essential for platform functionality:
-
-| Third-Party Partner / SDK | Service Provided | Privacy Policy Reference |
-| :--- | :--- | :--- |
-| **Google Play Services / FCM** | Push notifications, device integrity, app distribution. | [Google Privacy Policy](https://policies.google.com/privacy) |
-| **Ethio Telecom (Telebirr)** | Mobile payment processing & gateway checkout. | [Ethio Telecom Privacy Terms](https://www.ethiotelecom.et) |
-| **Chapa Financial Technologies** | Card, bank, and digital payment gateway services. | [Chapa Privacy Policy](https://chapa.co/privacy-policy) |
-| **LiveKit Inc.** | Open-source WebRTC media server for audio/video calling. | [LiveKit Privacy Policy](https://livekit.io/privacy) |
-| **Sentry (Functional Software)** | Automated error monitoring & crash diagnostics (PII scrubbed). | [Sentry Privacy Policy](https://sentry.io/privacy) |
-
----
-
-## 13. Changes to this Privacy Policy
-
-We may update this Privacy Policy periodically to reflect enhancements in our application features, technological advancements, or changes in statutory data protection laws.
-
-- When material modifications occur, we will update the **"Last Updated"** date at the top of this document and publish a prominent notification banner within the mobile application or send an email alert to registered users.
-- Your continued use of the Platform after the effective date of an updated Privacy Policy constitutes your informed acknowledgment and acceptance of the revised practices.
-
----
-
-## 14. Contact Information & Data Protection Officer
-
-If you have questions, concerns, complaints, or requests regarding this Privacy Policy, your personal data, or our privacy practices, please contact our Data Protection Team:
-
-**QIMEM Technologies PLC**  
-Attn: Data Protection Officer (DPO) / Privacy Team  
-Bole Sub-City, Addis Ababa, Ethiopia  
-
-- **Official Privacy Email:** [privacy@qimemtech.com](mailto:privacy@qimemtech.com)  
-- **General Inquiries:** [info@qimemtech.com](mailto:info@qimemtech.com)  
-- **Customer Support:** [support@qimemtech.com](mailto:support@qimemtech.com)  
-- **Account Deletion Portal:** [https://mydelala.qimemtech.com/delete-account](https://mydelala.qimemtech.com/delete-account)  
-- **Telegram Official Bot:** [@my_delalabot](https://t.me/my_delalabot)
+| **FDRE Constitution** | Proc. No. 1/1995, Art. 26 | Fundamental right to privacy. |
+| **Personal Data Protection** | Proc. No. 1321/2024 (PDPP) | Principles, legal bases, rights, DPO, local storage (Art. 22), 72h breach notice. |
+| **Digital Identification** | Proc. No. 1284/2023 | Consent rules and biometric protection for Fayda National ID data. |
+| **Electronic Transactions** | Proc. No. 1205/2020 | Legal recognition of electronic records and online consumer notices. |
+| **Computer Crime** | Proc. No. 958/2016 | Protection of IT systems, criminalization of unauthorized access and scraping. |
+| **Hate Speech & Disinformation** | Proc. No. 1185/2020 | Duty to remove hate speech and public safety disinformation within 24 hours. |
+| **Anti-Money Laundering** | Proc. No. 780/2013 | Customer verification and reporting suspicious property transactions. |
+| **Tax Administration & VAT** | Proc. No. 983/2016 & 1341/2024 | Mandatory **10-year retention** for financial transaction and tax ledgers. |
+| **National Payment System** | Proc. No. 718/2011 & 1282/2023 | Regulatory rules for payment processors (Telebirr, CBE Birr, Chapa). |
+| **Consumer Protection** | Proc. No. 813/2013 | Fair commercial information, transparent pricing in ETB, and consumer rights. |
