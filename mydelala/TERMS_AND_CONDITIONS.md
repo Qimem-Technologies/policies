@@ -61,7 +61,7 @@
 * **1.1 Who We Are:** MyDelala is owned and operated by Qimem Technologies PLC, a private limited company registered in Ethiopia, with registered offices in Bole Sub-City, Addis Ababa, Ethiopia ("Qimem", "we", "us").
 * **1.2 Scope:** These Terms govern your use of MyDelala and MyDelala Lite on Android, iOS, the web at [mydelala.et](https://mydelala.et), the Telegram Bot, Telegram Mini App, Telegram Sign-In, and APIs (the "Service").
 * **1.3 Electronic Acceptance:** Tapping "Agree", signing in, or using the Service forms a legally binding contract under the **Electronic Transaction Proclamation No. 1205/2020** and **Electronic Signature Proclamation No. 1072/2018**, equivalent to a signed paper document. If you disagree, do not use the Service.
-* **1.4 Incorporated Documents:** Our [Privacy Policy](PRIVACY_POLICY.md), Content Rules (Section 6), Annex A, and Annex B form part of these Terms.
+* **1.4 Incorporated Documents:** Our [Privacy Policy](https://mydelala.et/privacy), Content Rules (Section 6), Annex A, and Annex B form part of these Terms.
 * **1.5 Languages:** Available in English and Amharic (and optionally Afaan Oromo, Tigrinya, and Somali). The English version prevails in case of ambiguity.
 * **1.6 Business Users:** If accessing for a company or agency, you confirm you are authorized to bind that entity.
 
@@ -253,7 +253,7 @@ The Service interfaces with Telegram, Google (OAuth & Maps), Mapbox, AfroMessage
 
 ## 16. Privacy
 
-Personal data is processed in accordance with **FDRE Constitution Art. 26**, **Proclamation No. 1321/2024 (PDPP)**, and our **[Privacy Policy](PRIVACY_POLICY.md)**.
+Personal data is processed in accordance with **FDRE Constitution Art. 26**, **Proclamation No. 1321/2024 (PDPP)**, and our **[Privacy Policy](https://mydelala.et/privacy)**.
 
 ---
 
